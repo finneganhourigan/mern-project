@@ -27,7 +27,7 @@ const getDiscByID = async (req, res) => {
 
 const postDisc = async (req, res) => {
     const {name, speed, glide, turn, fade, manufacturer, category, description} = req.body;
-    
+
     try {
         const disc = await Disc.create({name, speed, glide, turn, fade, manufacturer, category, description});
         res.status(200).json(disc);

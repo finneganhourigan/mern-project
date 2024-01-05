@@ -1,0 +1,502 @@
+[
+    {
+        "manufacturer": "MVP",
+        "name": "Glitch",
+        "speed": 1,
+        "glide": 7,
+        "turn": 0,
+        "fade": 0,
+        "category": "putter",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Discraft",
+        "name": "Buzzz",
+        "speed": 5,
+        "glide": 4,
+        "turn": -1,
+        "fade": 1,
+        "category": "midrange",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Innova",
+        "name": "Wraith",
+        "speed": 11,
+        "glide": 5,
+        "turn": -1,
+        "fade": 3,
+        "category": "distance driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Infinite Discs",
+        "name": "Emperor",
+        "speed": 12,
+        "glide": 5,
+        "turn": -1,
+        "fade": 2.5,
+        "category": "distance driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Innova",
+        "name": "Alpaca",
+        "speed": 3,
+        "glide": 3,
+        "turn": 0,
+        "fade": 1,
+        "category": "putter",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Innova",
+        "name": "Destroyer",
+        "speed": 12,
+        "glide": 5,
+        "turn": -1,
+        "fade": 3,
+        "category": "distance driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Axiom",
+        "name": "Hex",
+        "speed": 5,
+        "glide": 5,
+        "turn": -1,
+        "fade": 1,
+        "category": "midrange",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Discraft",
+        "name": "Zone",
+        "speed": 4,
+        "glide": 3,
+        "turn": 0,
+        "fade": 3,
+        "category": "putter",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Axiom",
+        "name": "Envy",
+        "speed": 3,
+        "glide": 3,
+        "turn": 0,
+        "fade": 2,
+        "category": "putter",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Infinite Discs",
+        "name": "Tomb",
+        "speed": 4,
+        "glide": 3,
+        "turn": 0,
+        "fade": 1,
+        "category": "putter",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Innova",
+        "name": "Pig",
+        "speed": 4,
+        "glide": 1,
+        "turn": 0,
+        "fade": 3,
+        "category": "putter",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Infinite Discs",
+        "name": "Pharaoh",
+        "speed": 13,
+        "glide": 6,
+        "turn": -1,
+        "fade": 2,
+        "category": "distance driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Infinite Discs",
+        "name": "Dynasty",
+        "speed": 9,
+        "glide": 5,
+        "turn": -1,
+        "fade": 2,
+        "category": "fairway driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Infinite Discs",
+        "name": "Maya",
+        "speed": 11,
+        "glide": 5,
+        "turn": -3,
+        "fade": 1,
+        "category": "distance driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Kastaplast",
+        "name": "Berg",
+        "speed": 1,
+        "glide": 1,
+        "turn": 0,
+        "fade": 2,
+        "category": "putter",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Innova",
+        "name": "Mamba",
+        "speed": 11,
+        "glide": 6,
+        "turn": -5,
+        "fade": 1,
+        "category": "distance driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Gateway",
+        "name": "Wizard",
+        "speed": 2,
+        "glide": 3,
+        "turn": 0,
+        "fade": 2,
+        "category": "putter",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Infinite Discs",
+        "name": "Centurion",
+        "speed": 7,
+        "glide": 5,
+        "turn": -1,
+        "fade": 2,
+        "category": "fairway driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Infinite Discs",
+        "name": "Aztec",
+        "speed": 10,
+        "glide": 5,
+        "turn": -1,
+        "fade": 2,
+        "category": "distance driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Infinite Discs",
+        "name": "Sphinx",
+        "speed": 9,
+        "glide": 6,
+        "turn": -3,
+        "fade": 1,
+        "category": "distance driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Axiom",
+        "name": "Proxy",
+        "speed": 3,
+        "glide": 3,
+        "turn": -1,
+        "fade": 0.5,
+        "category": "putter",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Innova",
+        "name": "Leopard",
+        "speed": 6,
+        "glide": 5,
+        "turn": -2,
+        "fade": 1,
+        "category": "fairway driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Innova",
+        "name": "Firebird",
+        "speed": 9,
+        "glide": 3,
+        "turn": 0,
+        "fade": 4,
+        "category": "distance driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Latitude 64",
+        "name": "Pure",
+        "speed": 3,
+        "glide": 3,
+        "turn": -1,
+        "fade": 1,
+        "category": "putter",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Innova",
+        "name": "Mako3",
+        "speed": 5,
+        "glide": 5,
+        "turn": 0,
+        "fade": 0,
+        "category": "midrange",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Innova",
+        "name": "Aviar",
+        "speed": 2,
+        "glide": 3,
+        "turn": 0,
+        "fade": 1,
+        "category": "putter",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Dynamic Discs",
+        "name": "Judge",
+        "speed": 2,
+        "glide": 4,
+        "turn": 0,
+        "fade": 1,
+        "category": "putter",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Innova",
+        "name": "Teebird",
+        "speed": 7,
+        "glide": 5,
+        "turn": 0,
+        "fade": 2,
+        "category": "fairway driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Axiom",
+        "name": "Crave",
+        "speed": 6.5,
+        "glide": 5,
+        "turn": -1,
+        "fade": 1,
+        "category": "fairway driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Latitude 64",
+        "name": "River",
+        "speed": 7,
+        "glide": 7,
+        "turn": -1,
+        "fade": 1,
+        "category": "fairway driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Innova",
+        "name": "Rollo",
+        "speed": 5,
+        "glide": 6,
+        "turn": -4,
+        "fade": 1,
+        "category": "midrange",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Innova",
+        "name": "Valkyrie",
+        "speed": 9,
+        "glide": 4,
+        "turn": -2,
+        "fade": 2,
+        "category": "distance driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "MVP",
+        "name": "Watt",
+        "speed": 2,
+        "glide": 5,
+        "turn": -0.5,
+        "fade": 0.5,
+        "category": "putter",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Infinite Discs",
+        "name": "Roman",
+        "speed": 10,
+        "glide": 4,
+        "turn": 0,
+        "fade": 3,
+        "category": "fairway driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Infinite Discs",
+        "name": "Anubis",
+        "speed": 5,
+        "glide": 5,
+        "turn": 0,
+        "fade": 0,
+        "category": "midrange",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Innova",
+        "name": "Leopard3",
+        "speed": 7,
+        "glide": 5,
+        "turn": -2,
+        "fade": 1,
+        "category": "fairway driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Innova",
+        "name": "Beast",
+        "speed": 10,
+        "glide": 5,
+        "turn": -2,
+        "fade": 2,
+        "category": "distance driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Innova",
+        "name": "Tern",
+        "speed": 12,
+        "glide": 6,
+        "turn": -2,
+        "fade": 2,
+        "category": "distance driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Latitude 64",
+        "name": "Diamond",
+        "speed": 8,
+        "glide": 6,
+        "turn": -3,
+        "fade": 1,
+        "category": "fairway driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Axiom",
+        "name": "Insanity",
+        "speed": 9,
+        "glide": 5,
+        "turn": -2,
+        "fade": 1.5,
+        "category": "fairway driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Thought Space Athletics",
+        "name": "Mantra",
+        "speed": 9,
+        "glide": 6,
+        "turn": -2,
+        "fade": 1,
+        "category": "fairway driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Innova",
+        "name": "Thunderbird",
+        "speed": 9,
+        "glide": 5,
+        "turn": 0,
+        "fade": 2,
+        "category": "distance driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Thought Space Athletics",
+        "name": "Votum",
+        "speed": 7,
+        "glide": 5,
+        "turn": 0,
+        "fade": 3,
+        "category": "fairway driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Innova",
+        "name": "Shryke",
+        "speed": 13,
+        "glide": 6,
+        "turn": -2,
+        "fade": 2,
+        "category": "distance driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Prodigy",
+        "name": "PA-3",
+        "speed": 3,
+        "glide": 3,
+        "turn": 0,
+        "fade": 1,
+        "category": "putter",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Discraft",
+        "name": "Luna",
+        "speed": 3,
+        "glide": 3,
+        "turn": 0,
+        "fade": 3,
+        "category": "putter",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Discraft",
+        "name": "Zone OS",
+        "speed": 4,
+        "glide": 2,
+        "turn": 1,
+        "fade": 5,
+        "category": "putter",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Innova",
+        "name": "Roadrunner",
+        "speed": 9,
+        "glide": 5,
+        "turn": -4,
+        "fade": 1,
+        "category": "distance driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Clash Discs",
+        "name": "Wild Honey",
+        "speed": 12,
+        "glide": 5,
+        "turn": -2,
+        "fade": 2,
+        "category": "distance driver",
+        "description": "TODO: Description"
+    },
+    {
+        "manufacturer": "Axiom",
+        "name": "Time-Lapse",
+        "speed": 12,
+        "glide": 5,
+        "turn": -1,
+        "fade": 3,
+        "category": "distance driver",
+        "description": "TODO: Description"
+    }
+]
