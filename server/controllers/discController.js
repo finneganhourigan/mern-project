@@ -26,10 +26,10 @@ const getDiscByID = async (req, res) => {
 
 
 const postDisc = async (req, res) => {
-    const {name, speed, glide, turn, fade, manufacturer, category, description} = req.body;
+    const {name, speed, glide, turn, fade, manufacturer, category, description, image} = req.body;
 
     try {
-        const disc = await Disc.create({name, speed, glide, turn, fade, manufacturer, category, description});
+        const disc = await Disc.create({name, speed, glide, turn, fade, manufacturer, category, description, image});
         res.status(200).json(disc);
     } catch (error) {
         res.status(400).json({error: error.message});

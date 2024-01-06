@@ -7,7 +7,8 @@
         "turn": 0,
         "fade": 0,
         "category": "putter",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "mvp-glitch.png"
     },
     {
         "manufacturer": "Discraft",
@@ -17,7 +18,8 @@
         "turn": -1,
         "fade": 1,
         "category": "midrange",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "discraft-buzzz.png"
     },
     {
         "manufacturer": "Innova",
@@ -27,7 +29,8 @@
         "turn": -1,
         "fade": 3,
         "category": "distance driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "innova-wraith.png"
     },
     {
         "manufacturer": "Infinite Discs",
@@ -37,7 +40,8 @@
         "turn": -1,
         "fade": 2.5,
         "category": "distance driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "infinite-discs-emperor.png"
     },
     {
         "manufacturer": "Innova",
@@ -47,7 +51,8 @@
         "turn": 0,
         "fade": 1,
         "category": "putter",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "innova-alpaca.png"
     },
     {
         "manufacturer": "Innova",
@@ -57,7 +62,8 @@
         "turn": -1,
         "fade": 3,
         "category": "distance driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "innova-destroyer.png"
     },
     {
         "manufacturer": "Axiom",
@@ -67,7 +73,8 @@
         "turn": -1,
         "fade": 1,
         "category": "midrange",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "axiom-hex.png"
     },
     {
         "manufacturer": "Discraft",
@@ -77,7 +84,8 @@
         "turn": 0,
         "fade": 3,
         "category": "putter",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "discraft-zone.png"
     },
     {
         "manufacturer": "Axiom",
@@ -87,7 +95,8 @@
         "turn": 0,
         "fade": 2,
         "category": "putter",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "axiom-envy.png"
     },
     {
         "manufacturer": "Infinite Discs",
@@ -97,7 +106,8 @@
         "turn": 0,
         "fade": 1,
         "category": "putter",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "infinite-discs-tomb.png"
     },
     {
         "manufacturer": "Innova",
@@ -107,7 +117,8 @@
         "turn": 0,
         "fade": 3,
         "category": "putter",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "innova-pig.png"
     },
     {
         "manufacturer": "Infinite Discs",
@@ -117,7 +128,8 @@
         "turn": -1,
         "fade": 2,
         "category": "distance driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "infinite-discs-pharaoh.png"
     },
     {
         "manufacturer": "Infinite Discs",
@@ -127,7 +139,8 @@
         "turn": -1,
         "fade": 2,
         "category": "fairway driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "infinite-discs-dynasty.png"
     },
     {
         "manufacturer": "Infinite Discs",
@@ -137,7 +150,8 @@
         "turn": -3,
         "fade": 1,
         "category": "distance driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "infinite-discs-maya.png"
     },
     {
         "manufacturer": "Kastaplast",
@@ -147,7 +161,8 @@
         "turn": 0,
         "fade": 2,
         "category": "putter",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "kastaplast-berg.png"
     },
     {
         "manufacturer": "Innova",
@@ -157,7 +172,8 @@
         "turn": -5,
         "fade": 1,
         "category": "distance driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "innova-mamba.png"
     },
     {
         "manufacturer": "Gateway",
@@ -167,7 +183,8 @@
         "turn": 0,
         "fade": 2,
         "category": "putter",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "gateway-wizard.png"
     },
     {
         "manufacturer": "Infinite Discs",
@@ -177,7 +194,8 @@
         "turn": -1,
         "fade": 2,
         "category": "fairway driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "infinite-discs-centurion.png"
     },
     {
         "manufacturer": "Infinite Discs",
@@ -187,7 +205,8 @@
         "turn": -1,
         "fade": 2,
         "category": "distance driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "infinite-discs-aztec.png"
     },
     {
         "manufacturer": "Infinite Discs",
@@ -197,7 +216,8 @@
         "turn": -3,
         "fade": 1,
         "category": "distance driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "infinite-discs-sphinx.png"
     },
     {
         "manufacturer": "Axiom",
@@ -207,7 +227,8 @@
         "turn": -1,
         "fade": 0.5,
         "category": "putter",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "axiom-proxy.png"
     },
     {
         "manufacturer": "Innova",
@@ -217,7 +238,8 @@
         "turn": -2,
         "fade": 1,
         "category": "fairway driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "innova-leopard.png"
     },
     {
         "manufacturer": "Innova",
@@ -227,7 +249,8 @@
         "turn": 0,
         "fade": 4,
         "category": "distance driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "innova-firebird.png"
     },
     {
         "manufacturer": "Latitude 64",
@@ -237,7 +260,8 @@
         "turn": -1,
         "fade": 1,
         "category": "putter",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "latitude-64-pure.png"
     },
     {
         "manufacturer": "Innova",
@@ -247,7 +271,8 @@
         "turn": 0,
         "fade": 0,
         "category": "midrange",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "innova-mako3.png"
     },
     {
         "manufacturer": "Innova",
@@ -257,7 +282,8 @@
         "turn": 0,
         "fade": 1,
         "category": "putter",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "innova-aviar.png"
     },
     {
         "manufacturer": "Dynamic Discs",
@@ -267,7 +293,8 @@
         "turn": 0,
         "fade": 1,
         "category": "putter",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "dynamic-discs-judge.png"
     },
     {
         "manufacturer": "Innova",
@@ -277,7 +304,8 @@
         "turn": 0,
         "fade": 2,
         "category": "fairway driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "innova-teebird.png"
     },
     {
         "manufacturer": "Axiom",
@@ -287,7 +315,8 @@
         "turn": -1,
         "fade": 1,
         "category": "fairway driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "axiom-crave.png"
     },
     {
         "manufacturer": "Latitude 64",
@@ -297,7 +326,8 @@
         "turn": -1,
         "fade": 1,
         "category": "fairway driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "latitude-64-river.png"
     },
     {
         "manufacturer": "Innova",
@@ -307,7 +337,8 @@
         "turn": -4,
         "fade": 1,
         "category": "midrange",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "innova-rollo.png"
     },
     {
         "manufacturer": "Innova",
@@ -317,7 +348,8 @@
         "turn": -2,
         "fade": 2,
         "category": "distance driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "innova-valkyrie.png"
     },
     {
         "manufacturer": "MVP",
@@ -327,7 +359,8 @@
         "turn": -0.5,
         "fade": 0.5,
         "category": "putter",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "mvp-watt.png"
     },
     {
         "manufacturer": "Infinite Discs",
@@ -337,7 +370,8 @@
         "turn": 0,
         "fade": 3,
         "category": "fairway driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "infinite-discs-roman.png"
     },
     {
         "manufacturer": "Infinite Discs",
@@ -347,7 +381,8 @@
         "turn": 0,
         "fade": 0,
         "category": "midrange",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "infinite-discs-anubis.png"
     },
     {
         "manufacturer": "Innova",
@@ -357,7 +392,8 @@
         "turn": -2,
         "fade": 1,
         "category": "fairway driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "innova-leopard3.png"
     },
     {
         "manufacturer": "Innova",
@@ -367,7 +403,8 @@
         "turn": -2,
         "fade": 2,
         "category": "distance driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "innova-beast.png"
     },
     {
         "manufacturer": "Innova",
@@ -377,7 +414,8 @@
         "turn": -2,
         "fade": 2,
         "category": "distance driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "innova-tern.png"
     },
     {
         "manufacturer": "Latitude 64",
@@ -387,7 +425,8 @@
         "turn": -3,
         "fade": 1,
         "category": "fairway driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "latitude-64-diamond.png"
     },
     {
         "manufacturer": "Axiom",
@@ -397,7 +436,8 @@
         "turn": -2,
         "fade": 1.5,
         "category": "fairway driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "axiom-insanity.png"
     },
     {
         "manufacturer": "Thought Space Athletics",
@@ -407,7 +447,8 @@
         "turn": -2,
         "fade": 1,
         "category": "fairway driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "thought-space-athletics-mantra.png"
     },
     {
         "manufacturer": "Innova",
@@ -417,7 +458,8 @@
         "turn": 0,
         "fade": 2,
         "category": "distance driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "innova-thunderbird.png"
     },
     {
         "manufacturer": "Thought Space Athletics",
@@ -427,7 +469,8 @@
         "turn": 0,
         "fade": 3,
         "category": "fairway driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "thought-space-athletics-votum.png"
     },
     {
         "manufacturer": "Innova",
@@ -437,7 +480,8 @@
         "turn": -2,
         "fade": 2,
         "category": "distance driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "innova-shryke.png"
     },
     {
         "manufacturer": "Prodigy",
@@ -447,7 +491,8 @@
         "turn": 0,
         "fade": 1,
         "category": "putter",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "prodigy-pa-3.png"
     },
     {
         "manufacturer": "Discraft",
@@ -457,7 +502,8 @@
         "turn": 0,
         "fade": 3,
         "category": "putter",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "discraft-luna.png"
     },
     {
         "manufacturer": "Discraft",
@@ -467,7 +513,8 @@
         "turn": 1,
         "fade": 5,
         "category": "putter",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "discraft-zone-os.png"
     },
     {
         "manufacturer": "Innova",
@@ -477,7 +524,8 @@
         "turn": -4,
         "fade": 1,
         "category": "distance driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "innova-roadrunner.png"
     },
     {
         "manufacturer": "Clash Discs",
@@ -487,7 +535,8 @@
         "turn": -2,
         "fade": 2,
         "category": "distance driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "clash-discs-wild-honey.png"
     },
     {
         "manufacturer": "Axiom",
@@ -497,6 +546,7 @@
         "turn": -1,
         "fade": 3,
         "category": "distance driver",
-        "description": "TODO: Description"
+        "description": "TODO: Description",
+        "image": "axiom-time-lapse.png"
     }
 ]

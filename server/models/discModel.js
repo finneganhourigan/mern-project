@@ -10,7 +10,8 @@ const discSchema = new mongoose.Schema({
     turn: {type: Number, required: true},
     fade: {type: Number, required: true},
     category: {type: String, required: true},
-    description: {type: String, required: true}
+    description: {type: String, required: true},
+    image: {type: String, required: true}
 });
 
 module.exports = mongoose.model('Disc', discSchema);
