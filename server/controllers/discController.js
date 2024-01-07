@@ -21,7 +21,7 @@ const getDiscByID = async (req, res) => {
         return res.status(404).json({error: 'No such disc to get'});
     }
     
-    res.status(200).json({disc});
+    res.status(200).json(disc);
 };
 
 
@@ -51,7 +51,7 @@ const updateDisc = async (req, res) => {
         return res.status(404).json({error: "No such disc to update"})
     }
 
-    res.status(200).json({disc});
+    res.status(200).json(disc);
 };
 
 
@@ -69,7 +69,7 @@ const deleteDisc = async (req, res) => {
         return res.status(404).json({error: "No such disc to delete"})
     }
 
-    res.status(200).json({disc});
+    res.status(200).json(disc);
 };
 
 
