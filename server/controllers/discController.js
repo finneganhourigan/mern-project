@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 const getDiscs = async (req, res) => {
     const discs = await Disc.find({}).sort({name: 1});
-    res.status(200).json({discs});
+    res.status(200).json(discs);
 };
 
 

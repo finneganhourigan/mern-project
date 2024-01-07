@@ -86,3 +86,39 @@ a:hover {
   color: var(--text-900); /* Optional: Specify a different color on hover if desired */
   text-decoration: none; /* Optional: Specify a different text decoration on hover if desired */
 }
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--secondary-500);
+}
+
+p {
+  color: var(--secondary-700);
+}
+
+button {
+  background-color: var(--accent-500);
+  color: var(--text-900);
+}
+
+button:hover {
+  background-color: var(--accent-600);
+}
+
+input, textarea {
+  background-color: var(--background);
+  color: var(--text);
+  border-color: var(--secondary-100);
+}
+
+input:focus, textarea:focus {
+  border-color: var(--secondary-500);
+}
+
+list, ul, ol {
+  color: var(--secondary-400);
+}
+
+footer {
+  background-color: var(--secondary-100);
+  color: var(--text);
+}
