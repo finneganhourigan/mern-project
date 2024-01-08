@@ -1,12 +1,16 @@
 const express = require('express');
 require('dotenv').config();
 const mongoose = require('mongoose');
+const cors = require('cors');
 const discRoutes = require('./routes/discRoutes');
 
 const app = express();
 
 //middleware
 app.use(express.json());
+
+//Enable CORS
+app.use(cors());
 
 //routes
 app.use('/api/discs', discRoutes);

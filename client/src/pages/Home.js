@@ -7,7 +7,7 @@ const Home = () => {
 
     useEffect(() => {
         const fetchDiscs = async() => {
-            const response = await fetch("/api/discs");
+            const response = await fetch("http://localhost:4000/api/discs");
             const data = await response.json();
 
             console.log("TEST");
