@@ -1,46 +1,46 @@
 import { useState, useEffect } from "react";
 import Disc from "../components/Disc";
+import '../index.css';
 
 const Home = () => {
     const [discs, setDiscs] = useState([]);
-    const [shownDiscs, setShownDiscs] = useState([]);
+    const [filteredDiscs, setFilteredDiscs] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        const fetchDiscs = async() => {
-            const response = await fetch("http://localhost:4000/api/discs");
-            const data = await response.json();
-
-            console.log("TEST");
-            if(response.ok) {
+        fetch("http://localhost:4000/api/discs")
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
                 setDiscs(data);
-            } else {
-                console.log("disc fetch error: ", response.status);
-            }
+                
+                setFilteredDiscs(data.map(disc => {
+                    return (
+                        <Disc key={disc._id}
+                            name={disc.name}
+                            manufacturer={disc.manufacturer}
+                            speed={disc.speed}
+                            glide={disc.glide}
+                            turn={disc.turn}
+                            fade={disc.fade}
+                            category={disc.category}
+                            description={disc.description}
+                            image={disc.image}
+                        />
+                    )
+                }));
 
-            setShownDiscs(data.map(disc => {
-                return (
-                    <Disc key={disc.id}
-                        name={disc.name}
-                        manufacturer={disc.manufacturer}
-                        speed={disc.speed}
-                        glide={disc.glide}
-                        turn={disc.turn}
-                        fade={disc.fade}
-                        category={disc.category}
-                        description={disc.description}
-                        image={disc.image}
-                    />
-                )
-            }));
-        }
-
-        fetchDiscs();
+                setIsLoading(false);
+            })
+            .catch(error => {
+                console.log("disc fetch error: ", error);
+            })
     }, []);
 
     return (
         <div className="home">
-            <div className="disc">
-                {shownDiscs}
+            <div className="discs">
+                {isLoading ? <h2>Loading Disc Data...</h2> : <>{filteredDiscs}</>}
             </div>
         </div>
     )
