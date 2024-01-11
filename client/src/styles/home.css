@@ -1,0 +1,22 @@
+body {
+  color: var(--text);
+  background-color: var(--background);
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--text); 
+  text-decoration: none; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text);
+}
+
+p {
+  color: var(--text);
+}

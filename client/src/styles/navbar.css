@@ -1,0 +1,10 @@
+.navbar {
+    /* border: 2px solid #000; */
+    justify-content: center;
+}
+
+header {
+    /* border: #ffffff 2px solid; */
+    background-color: var(--primary);
+    margin: 0 0 10px 0;
+}
