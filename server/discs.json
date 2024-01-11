@@ -6,7 +6,7 @@
         "glide": 7,
         "turn": 0,
         "fade": 0,
-        "category": "putter",
+        "category": "Putter",
         "description": "The Glitch from MVP is a lightweight approach disc with very high glide, that is made for low-speed, precision placement or long distance putting. It can be used as a catch-and-throw disc for warm-up and then used to reach the basket with ease, even making long putts feel effortless.",
         "image": "mvp-glitch.png"
     },
@@ -17,7 +17,7 @@
         "glide": 4,
         "turn": -1,
         "fade": 1,
-        "category": "midrange",
+        "category": "Midrange",
         "description": "The Buzzz (3 z’s) is one of the most popular midrange discs in the world. This consistent, reliable, and stable disc will perform exactly how you want it to. With powerful throws the Buzzz will hold any line you put on it. With light, level throws, it will fade slightly. This super popular disc can be purchased in all of Discraft's plastics. In base line plastics it has a stability rating of 0. In premium plastic blends this disc is slightly overstable with a Discraft rating of .5.",
         "image": "discraft-buzzz.png"
     },
@@ -28,7 +28,7 @@
         "glide": 5,
         "turn": -1,
         "fade": 3,
-        "category": "distance driver",
+        "category": "Distance Driver",
         "description": "The Innova Wraith is a long, stable, distance driver with decent speed, exceptional glide, and precision accuracy. Players of many different skill levels can get great distance with the Wraith. The neutral stability of the Wraith allows it to be a valuable disc in all wind conditions. This driver works well for both forehand and backhand throws.",
         "image": "innova-wraith.png"
     },
@@ -39,7 +39,7 @@
         "glide": 5,
         "turn": -1,
         "fade": 2.5,
-        "category": "distance driver",
+        "category": "Distance Driver",
         "description": "Master the courses with the Emperor by Infinite Discs. This commanding distance driver, boasting a moderate overstable nature, stands unrivaled among its counterparts in the market. Experience the sheer power as the Emperor effortlessly glides through the air, outclassing competitors and setting new standards for distance drivers.\n\nIt's the go-to choice for a multitude of Infinite sponsored players, despite having the freedom to select from any brand. Grab an Emperor today and experience its unparalleled performance firsthand.",
         "image": "infinite-discs-emperor.png"
     },
@@ -50,7 +50,7 @@
         "glide": 3,
         "turn": 0,
         "fade": 1,
-        "category": "putter",
+        "category": "Putter",
         "description": "The Alpaca is the quintessential beadless putter and is consistently rated as one of the best putt and approach discs in all of disc golf. The Alpaca has a deep, comfortable, traditional, and familiar feel. The Alpaca is the putting putter of choice for nearly all of Infinite's sponsored pros. This goes to show how incredible this putter really is. It is one of the greats inside the circle, and has incredible glide and torque resistance for as far as you can huck it.",
         "image": "infinite-discs-alpaca.png"
     },
@@ -61,7 +61,7 @@
         "glide": 5,
         "turn": -1,
         "fade": 3,
-        "category": "distance driver",
+        "category": "Distance Driver",
         "description": "The Destroyer is consistently rated as one of the best distance drivers on InfiniteDiscs.com. This was the first Speed-12 driver and is one of the primary discs used by many professional disc golfers. For less experienced players, the Destroyer excels for forehand throws. The Destroyer is overstable, but has a degree of turn to help provide incredible glide and distance. Intermediate players will get more distance on forehand throws with the Destroyer than just about any other disc. The Innova Destroyer is a very thin (1.4cm) disc, and has the perfect sized rim (2.2cm) for high speeds, without being uncomfortably thick. As such a popular driver, the Destroyer comes available in all the major plastics.",
         "image": "innova-destroyer.png"
     },
@@ -72,7 +72,7 @@
         "glide": 5,
         "turn": -1,
         "fade": 1,
-        "category": "midrange",
+        "category": "Midrange",
         "description": "The Hex is a straight flying midrange, designed to fit into anyone's bag. The flight numbers 5/5/-1/-1 are shared by the Buzzz. Axiom takes a classic and gives it the GYRO effect, making a disc that is designed for trusty midrange placement shots without having to worry as much about wind or inconstistent releases. Every MVP/Axiom fan has a Hex in the bag.",
         "image": "axiom-hex.png"
     },
@@ -83,7 +83,7 @@
         "glide": 3,
         "turn": 0,
         "fade": 3,
-        "category": "putter",
+        "category": "Putter",
         "description": "Want to get in the Zone? The Discraft Zone is a slim putter with a thick rim (1.2cm) that gives you something to hold on to. This is a very overstable putter that is good for headwinds, strategic fades, forehand throws, flick putts, and slamming into chains at just the right angle. Many Discraft enthusiasts will have a Zone in their bag as a putter that gets them out of a situation where a flick, or sidearm putt or approach shot is their only option. Being so overstable, this disc can handle the torque that a flick will put on it! The Zone is considered one of the best Discraft Discs available today.",
         "image": "discraft-zone.png"
     },
@@ -94,7 +94,7 @@
         "glide": 3,
         "turn": 0,
         "fade": 2,
-        "category": "putter",
+        "category": "Putter",
         "description": "This putter has the reputation of being the disc James Conrad threw in on hole 18 at the 2021 World Championships for the \"holy shot.\" It's widely known as one of the best throwing putters ever made, and works well for putting as well. Brand new, this disc sports some fade at the end of its flight, but will beat in very nicely to fly dead straight. This disc will hold any line and take as much power as you can give it, all while being a masterful approach disc for touch shots. The profile is a little thinner, and as a 3 speed putter, will fly faster and a little further than many other putters.",
         "image": "axiom-envy.png"
     },
@@ -105,7 +105,7 @@
         "glide": 3,
         "turn": 0,
         "fade": 1,
-        "category": "putter",
+        "category": "Putter",
         "description": "The TOMB is a flat-topped, low-profile, putt-and-approach disc with a comfortably smooth, beaded rim. The Tomb has just the right amount of stability to cover ground while threading the needle on approach shots, whether thrown forehand or backhand. It can also be used as a crossover mid-range, driving putter, or to hold the line while putting from distance or in moderate winds.",
         "image": "infinite-discs-tomb.png"
     },
@@ -116,7 +116,7 @@
         "glide": 1,
         "turn": 0,
         "fade": 3,
-        "category": "putter",
+        "category": "Putter",
         "description": "This overstable putter has a big thick Thumtrac Rim. The Pig is a slow overstable disc that hardly glides. It's great for hyzer putts and throwing into headwinds. The Innova Pig is available in the soft grippy R-Pro plastic.",
         "image": "innova-pig.png"
     },
@@ -127,7 +127,7 @@
         "glide": 6,
         "turn": -1,
         "fade": 2,
-        "category": "distance driver",
+        "category": "Distance Driver",
         "description": "The Pharaoh stands as the ultimate distance driver, designed for high-speed releases and maximum distance potential. Its manageable fade sets it apart, ensuring that even intermediate players can harness its wonders. When you need to conquer extensive territory off the tee, trust the Pharaoh to deliver. Rule your local disc golf course with the unmatched power of the Pharaoh!",
         "image": "infinite-discs-pharaoh.png"
     },
@@ -138,7 +138,7 @@
         "glide": 5,
         "turn": -1,
         "fade": 2,
-        "category": "fairway driver",
+        "category": "Fairway Driver",
         "description": "The Dynasty stands out as the ultimate go-to control driver, catering to players of all skill levels. Whether you're a beginner looking to enhance your distance game or an advanced player seeking precision, the Dynasty proves to be the perfect choice. Surprisingly, despite its 9-speed rating, the Dynasty often outperforms traditional distance drivers due to its exceptional glide.\n\nThis disc's ability to maintain a straight flight over extended fairways makes it a preferred choice for accurate throws. Take your game to the next level with the Dynasty – the epitome of control and versatility in the disc golf world!",
         "image": "infinite-discs-dynasty.png"
     },
@@ -149,7 +149,7 @@
         "glide": 5,
         "turn": -3,
         "fade": 1,
-        "category": "distance driver",
+        "category": "Distance Driver",
         "description": "The Maya emerges as an exceptional understable distance bomber! Ideal for beginners and intermediate players, this disc proves to be an excellent choice for straight-flying distance drives. Meanwhile, advanced to open players harness the Maya's capabilities for delivering massive understable distance shots with finesse and precision. Discover the versatility and dynamic performance of the Maya across all skill levels.",
         "image": "infinite-discs-maya.png"
     },
@@ -160,7 +160,7 @@
         "glide": 1,
         "turn": 0,
         "fade": 2,
-        "category": "putter",
+        "category": "Putter",
         "description": "The Berg is unparalleled: A low glide putter that flies true every time, and will not outdrive the basket. Its aptitude lies in precise landings and eliminating the need for distance control. A distinctive attribute of this disc is its thumbtrack, with a lowered flight plate that almost hugs your hand. Remarkably versatile for both forehands and backhands, the Berg fearlessly accommodates the full extent of your power, steadfast against turnover, and adeptly managing even the most delicate approaches you encounter.",
         "image": "kastaplast-berg.png"
     },
@@ -171,7 +171,7 @@
         "glide": 6,
         "turn": -5,
         "fade": 1,
-        "category": "distance driver",
+        "category": "Distance Driver",
         "description": "The Innova Mamba is the most understable high speed distance driver in the Innova line. This disc will help intermediate players get more distance, and will provide the ultimate turn for powerful throwers. This driver is good for tailwind throws, turnover shots, and makes a good roller.",
         "image": "innova-mamba.png"
     },
@@ -182,7 +182,7 @@
         "glide": 3,
         "turn": 0,
         "fade": 2,
-        "category": "putter",
+        "category": "Putter",
         "description": "The Gateway Wizard is one of the most popular putters for many years. It is available in nearly a dozen different plastic blends. This beaded putt and approach disc is a staple for thousands of avid disc golfers. The Wizard is a popular choice for short drives, approach shots, long putts, and short putts. This overstable disc has an outstanding feel and provides the positive results you'll want to take your game to the next level.",
         "image": "gateway-wizard.png"
     },
@@ -193,7 +193,7 @@
         "glide": 5,
         "turn": -1,
         "fade": 2,
-        "category": "fairway driver",
+        "category": "Fairway Driver",
         "description": "The Centurion, a versatile fairway driver, is designed to offer exceptional workability on the disc golf course. Tailored for both novice and professional players, it stands out as a straight-flying, precision driver that seamlessly integrates into any player's bag.\n\nNo matter the skill level, every player can rely on the Centurion to maintain the desired line with just a subtle end fade. This workhorse control driver excels in providing precise placement on the fairway, making it an invaluable addition to any disc golfer's arsenal.\n\nWhether you're navigating tricky fairways or seeking consistent, accurate throws, the Centurion rises to the occasion, proving itself as a go-to disc for players aiming for both control and reliability.",
         "image": "infinite-discs-centurion.png"
     },
@@ -204,7 +204,7 @@
         "glide": 5,
         "turn": -1,
         "fade": 2,
-        "category": "distance driver",
+        "category": "Distance Driver",
         "description": "The Aztec, classified as a speed 10 driver, exhibits a straight flight path with a subtle fade towards the end. Despite its speed rating, the Aztec surprises most players with remarkable distance and accuracy, proving itself as a valuable asset to any game.\n\nUnlike high-speed distance drivers, the Aztec boasts a more slender rim, enhancing comfort for the majority of disc golfers. Widely recognized as a lengthier yet comparable flying disc to the Exodus or Dynasty, the Aztec promises a blend of performance and familiarity for players seeking reliable distance shots.",
         "image": "infinite-discs-aztec.png"
     },
@@ -215,7 +215,7 @@
         "glide": 6,
         "turn": -3,
         "fade": 1,
-        "category": "distance driver",
+        "category": "Distance Driver",
         "description": "TODO: Description",
         "image": "infinite-discs-sphinx.png"
     },
@@ -226,7 +226,7 @@
         "glide": 3,
         "turn": -1,
         "fade": 0.5,
-        "category": "putter",
+        "category": "Putter",
         "description": "TODO: Description",
         "image": "axiom-proxy.png"
     },
@@ -237,7 +237,7 @@
         "glide": 5,
         "turn": -2,
         "fade": 1,
-        "category": "fairway driver",
+        "category": "Fairway Driver",
         "description": "TODO: Description",
         "image": "innova-leopard.png"
     },
@@ -248,7 +248,7 @@
         "glide": 3,
         "turn": 0,
         "fade": 4,
-        "category": "distance driver",
+        "category": "Distance Driver",
         "description": "TODO: Description",
         "image": "innova-firebird.png"
     },
@@ -259,7 +259,7 @@
         "glide": 3,
         "turn": -1,
         "fade": 1,
-        "category": "putter",
+        "category": "Putter",
         "description": "TODO: Description",
         "image": "latitude-64-pure.png"
     },
@@ -270,7 +270,7 @@
         "glide": 5,
         "turn": 0,
         "fade": 0,
-        "category": "midrange",
+        "category": "Midrange",
         "description": "TODO: Description",
         "image": "innova-mako3.png"
     },
@@ -281,7 +281,7 @@
         "glide": 3,
         "turn": 0,
         "fade": 1,
-        "category": "putter",
+        "category": "Putter",
         "description": "TODO: Description",
         "image": "innova-aviar.png"
     },
@@ -292,7 +292,7 @@
         "glide": 4,
         "turn": 0,
         "fade": 1,
-        "category": "putter",
+        "category": "Putter",
         "description": "TODO: Description",
         "image": "dynamic-discs-judge.png"
     },
@@ -303,7 +303,7 @@
         "glide": 5,
         "turn": 0,
         "fade": 2,
-        "category": "fairway driver",
+        "category": "Fairway Driver",
         "description": "TODO: Description",
         "image": "innova-teebird.png"
     },
@@ -314,7 +314,7 @@
         "glide": 5,
         "turn": -1,
         "fade": 1,
-        "category": "fairway driver",
+        "category": "Fairway Driver",
         "description": "TODO: Description",
         "image": "axiom-crave.png"
     },
@@ -325,7 +325,7 @@
         "glide": 7,
         "turn": -1,
         "fade": 1,
-        "category": "fairway driver",
+        "category": "Fairway Driver",
         "description": "TODO: Description",
         "image": "latitude-64-river.png"
     },
@@ -336,7 +336,7 @@
         "glide": 6,
         "turn": -4,
         "fade": 1,
-        "category": "midrange",
+        "category": "Midrange",
         "description": "TODO: Description",
         "image": "innova-rollo.png"
     },
@@ -347,7 +347,7 @@
         "glide": 4,
         "turn": -2,
         "fade": 2,
-        "category": "distance driver",
+        "category": "Distance Driver",
         "description": "TODO: Description",
         "image": "innova-valkyrie.png"
     },
@@ -358,7 +358,7 @@
         "glide": 5,
         "turn": -0.5,
         "fade": 0.5,
-        "category": "putter",
+        "category": "Putter",
         "description": "TODO: Description",
         "image": "mvp-watt.png"
     },
@@ -369,7 +369,7 @@
         "glide": 4,
         "turn": 0,
         "fade": 3,
-        "category": "fairway driver",
+        "category": "Fairway Driver",
         "description": "TODO: Description",
         "image": "infinite-discs-roman.png"
     },
@@ -380,7 +380,7 @@
         "glide": 5,
         "turn": 0,
         "fade": 0,
-        "category": "midrange",
+        "category": "Midrange",
         "description": "TODO: Description",
         "image": "infinite-discs-anubis.png"
     },
@@ -391,7 +391,7 @@
         "glide": 5,
         "turn": -2,
         "fade": 1,
-        "category": "fairway driver",
+        "category": "Fairway Driver",
         "description": "TODO: Description",
         "image": "innova-leopard3.png"
     },
@@ -402,7 +402,7 @@
         "glide": 5,
         "turn": -2,
         "fade": 2,
-        "category": "distance driver",
+        "category": "Distance Driver",
         "description": "TODO: Description",
         "image": "innova-beast.png"
     },
@@ -413,7 +413,7 @@
         "glide": 6,
         "turn": -2,
         "fade": 2,
-        "category": "distance driver",
+        "category": "Distance Driver",
         "description": "TODO: Description",
         "image": "innova-tern.png"
     },
@@ -424,7 +424,7 @@
         "glide": 6,
         "turn": -3,
         "fade": 1,
-        "category": "fairway driver",
+        "category": "Fairway Driver",
         "description": "TODO: Description",
         "image": "latitude-64-diamond.png"
     },
@@ -435,7 +435,7 @@
         "glide": 5,
         "turn": -2,
         "fade": 1.5,
-        "category": "fairway driver",
+        "category": "Fairway Driver",
         "description": "TODO: Description",
         "image": "axiom-insanity.png"
     },
@@ -446,7 +446,7 @@
         "glide": 6,
         "turn": -2,
         "fade": 1,
-        "category": "fairway driver",
+        "category": "Fairway Driver",
         "description": "TODO: Description",
         "image": "thought-space-athletics-mantra.png"
     },
@@ -457,7 +457,7 @@
         "glide": 5,
         "turn": 0,
         "fade": 2,
-        "category": "distance driver",
+        "category": "Distance Driver",
         "description": "TODO: Description",
         "image": "innova-thunderbird.png"
     },
@@ -468,7 +468,7 @@
         "glide": 5,
         "turn": 0,
         "fade": 3,
-        "category": "fairway driver",
+        "category": "Fairway Driver",
         "description": "TODO: Description",
         "image": "thought-space-athletics-votum.png"
     },
@@ -479,7 +479,7 @@
         "glide": 6,
         "turn": -2,
         "fade": 2,
-        "category": "distance driver",
+        "category": "Distance Driver",
         "description": "TODO: Description",
         "image": "innova-shryke.png"
     },
@@ -490,7 +490,7 @@
         "glide": 3,
         "turn": 0,
         "fade": 1,
-        "category": "putter",
+        "category": "Putter",
         "description": "TODO: Description",
         "image": "prodigy-pa-3.png"
     },
@@ -501,7 +501,7 @@
         "glide": 3,
         "turn": 0,
         "fade": 3,
-        "category": "putter",
+        "category": "Putter",
         "description": "TODO: Description",
         "image": "discraft-luna.png"
     },
@@ -512,7 +512,7 @@
         "glide": 2,
         "turn": 1,
         "fade": 5,
-        "category": "putter",
+        "category": "Putter",
         "description": "TODO: Description",
         "image": "discraft-zone-os.png"
     },
@@ -523,7 +523,7 @@
         "glide": 5,
         "turn": -4,
         "fade": 1,
-        "category": "distance driver",
+        "category": "Distance Driver",
         "description": "TODO: Description",
         "image": "innova-roadrunner.png"
     },
@@ -534,7 +534,7 @@
         "glide": 5,
         "turn": -2,
         "fade": 2,
-        "category": "distance driver",
+        "category": "Distance Driver",
         "description": "TODO: Description",
         "image": "clash-discs-wild-honey.png"
     },
@@ -545,7 +545,7 @@
         "glide": 5,
         "turn": -1,
         "fade": 3,
-        "category": "distance driver",
+        "category": "Distance Driver",
         "description": "TODO: Description",
         "image": "axiom-time-lapse.png"
     }

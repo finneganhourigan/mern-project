@@ -83,8 +83,8 @@ a {
 }
 
 a:hover {
-  color: var(--text-900); /* Optional: Specify a different color on hover if desired */
-  text-decoration: none; /* Optional: Specify a different text decoration on hover if desired */
+  color: var(--text-900); 
+  text-decoration: none; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -95,7 +95,32 @@ p {
   color: var(--text-200);
 }
 
-.discs img {
+.disc-grid {
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.disc {
+  background-color: var(--background-700);
+  border: var(--secondary) 2px solid;
+  text-align: center;
+}
+
+.disc img {
   width: 300px;
   height: 300px;
+}
+
+.flight-number-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: var(--accent) 2px solid;
+}
+
+.flight-num{
+  border: var(--primary-300) 2px solid;
+  width: 40%;
+  font-size: large;
+  margin: 5px 0px 5px 5px;
 }

@@ -39,7 +39,7 @@ const Home = () => {
 
     return (
         <div className="home">
-            <div className="discs">
+            <div className="disc-grid">
                 {isLoading ? <h2>Loading Disc Data...</h2> : <>{filteredDiscs}</>}
             </div>
         </div>
