@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
 import Disc from "../components/Disc";
-import '../styles/home.css';
-
 
 const Home = () => {
     const [discs, setDiscs] = useState([]);
@@ -17,7 +15,7 @@ const Home = () => {
                 
                 setFilteredDiscs(data.map(disc => {
                     return (
-                        <div className="col-sm-6 col-md-4 col-lg-3">
+                        <div>
                             <Disc key={disc._id}
                                 name={disc.name}
                                 manufacturer={disc.manufacturer}
@@ -41,15 +39,15 @@ const Home = () => {
     }, []);
 
     return (
-        <div className="home">
-            <div className="disc-grid">
-                <div className="container-fluid">
-                    <div className="row">
-                        {isLoading ? <h2>Loading Disc Data...</h2> : <>{filteredDiscs}</>}
-                    </div>
+        <body class='bg-background text-text h-full'>
+            {isLoading ? 
+                <h2 class='flex justify-center items-center h-screen text-3xl'>Loading Disc Data...</h2> 
+            : 
+                <div class='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center'>
+                    {filteredDiscs}
                 </div>
-            </div>
-        </div>
+            }      
+        </body>
     )
 }
 

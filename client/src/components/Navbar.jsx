@@ -1,10 +1,9 @@
 import {Link} from 'react-router-dom';
-import '../styles/navbar.css';
 
 const Navbar = () => {
     return (
-      <header>
-        <div className="navbar">
+      <header >
+        <div class='flex justify-center text-text bg-primary p-4 text-3xl font-shippori'>
             <Link to='/'>
               <h1>Logo</h1>
             </Link>
