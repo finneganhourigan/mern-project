@@ -42,17 +42,29 @@ const Home = () => {
     }, []);
 
     return (
-        <body class="h-full bg-background text-text">
+        <div class="flex items-center justify-center bg-background px-8 pb-8 text-text">
             {isLoading ? (
-                <h2 class="flex h-screen items-center justify-center text-3xl">
+                <h2 class="flex h-screen items-center text-3xl">
                     Loading Disc Data...
                 </h2>
             ) : (
-                <div class="grid grid-cols-1 items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                    {filteredDiscs}
+                // 2 sections for [sidebar | grid]. 2 columns and 10 columns respectively
+                <div class="grid grid-cols-12">
+                    {/* <div class="grid-cols-1"></div> */}
+
+                    <div class="col-span-2 mr-2 bg-accent text-text">
+                        <h1>toggle</h1>
+                        <h1>sidebar</h1>
+                        <h1>sidebar</h1>
+                        <h1>sidebar</h1>
+                    </div>
+
+                    <div class="col-span-10 grid grid-cols-1 items-center gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+                        {filteredDiscs}
+                    </div>
                 </div>
             )}
-        </body>
+        </div>
     );
 };
 
