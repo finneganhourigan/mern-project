@@ -9,7 +9,7 @@ const Slider = ({ min, max }) => {
     };
 
     return (
-        <div class="mb-4 mt-2 flex items-center">
+        <div class="mb-2 mt-1 flex items-center">
             <div class="w-[85%]">
                 <input
                     type="range"
