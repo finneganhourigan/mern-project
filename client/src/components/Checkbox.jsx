@@ -4,7 +4,7 @@ const Checkbox = ({ brand }) => {
     const [checked, setChecked] = useState(false);
 
     return (
-        <div class="my-2 flex items-center">
+        <div class="flex items-center">
             <input
                 type="checkbox"
                 checked={checked}
