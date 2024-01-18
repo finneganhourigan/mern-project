@@ -5,9 +5,16 @@ import Checkbox from '../components/Checkbox';
 import Select from '../components/Select';
 
 const Home = () => {
+    const [isLoading, setIsLoading] = useState(true);
+
     const [discs, setDiscs] = useState([]);
     const [filteredDiscs, setFilteredDiscs] = useState([]);
-    const [isLoading, setIsLoading] = useState(true);
+
+    const [speedFilter, setSpeedFilter] = useState(null);
+    const [glideFilter, setGlideFilter] = useState(null);
+    const [turnFilter, setTurnFilter] = useState(null);
+    const [fadeFilter, setFadeFilter] = useState(null);
+    const [brandFilter, setBrandFilter] = useState(null);
 
     useEffect(() => {
         fetch('http://localhost:4000/api/discs')
@@ -19,20 +26,18 @@ const Home = () => {
                 setFilteredDiscs(
                     data.map((disc) => {
                         return (
-                            <div>
-                                <Disc
-                                    key={disc._id}
-                                    name={disc.name}
-                                    manufacturer={disc.manufacturer}
-                                    speed={disc.speed}
-                                    glide={disc.glide}
-                                    turn={disc.turn}
-                                    fade={disc.fade}
-                                    category={disc.category}
-                                    description={disc.description}
-                                    image={disc.image}
-                                />
-                            </div>
+                            <Disc
+                                key={disc._id}
+                                name={disc.name}
+                                manufacturer={disc.manufacturer}
+                                speed={disc.speed}
+                                glide={disc.glide}
+                                turn={disc.turn}
+                                fade={disc.fade}
+                                category={disc.category}
+                                description={disc.description}
+                                image={disc.image}
+                            />
                         );
                     }),
                 );
@@ -44,19 +49,77 @@ const Home = () => {
             });
     }, []);
 
+    const handleSortOrderChange = (event) => {
+        const selectedSortOrder = event.target.value;
+        let orderedDiscs = [...discs];
+
+        if (selectedSortOrder === 'Name') {
+            orderedDiscs.sort((a, b) => {
+                if (a.name < b.name) {
+                    return -1;
+                }
+                if (a.name > b.name) {
+                    return 1;
+                }
+                return 0;
+            });
+
+            setFilteredDiscs(
+                orderedDiscs.map((disc) => {
+                    return (
+                        <Disc
+                            key={disc._id}
+                            name={disc.name}
+                            manufacturer={disc.manufacturer}
+                            speed={disc.speed}
+                            glide={disc.glide}
+                            turn={disc.turn}
+                            fade={disc.fade}
+                            category={disc.category}
+                            description={disc.description}
+                            image={disc.image}
+                        />
+                    );
+                }),
+            );
+        } else if (selectedSortOrder === 'Top Selling') {
+            setFilteredDiscs(
+                orderedDiscs.map((disc) => {
+                    return (
+                        <Disc
+                            key={disc._id}
+                            name={disc.name}
+                            manufacturer={disc.manufacturer}
+                            speed={disc.speed}
+                            glide={disc.glide}
+                            turn={disc.turn}
+                            fade={disc.fade}
+                            category={disc.category}
+                            description={disc.description}
+                            image={disc.image}
+                        />
+                    );
+                }),
+            );
+        }
+
+        // const updatedSortOrder = selectedSortOrder;
+        // console.log(updatedSortOrder);
+    };
+
     return (
         <div>
             {isLoading ? (
-                <h2 class="flex h-screen w-screen items-center justify-center text-3xl">
+                <h2 class="flex h-screen items-center justify-center text-3xl">
                     Loading Disc Data...
                 </h2>
             ) : (
                 <div>
                     <div class="sticky top-10">
-                        <Select />
+                        <Select onChange={handleSortOrderChange} />
                     </div>
                     {/* // 2 sections for [sidebar | grid]. 2 columns and 10 columns respectively */}
-                    <div class="grid grid-cols-12 px-8 pb-8">
+                    <div class="grid grid-cols-12 px-2 pb-8 md:px-8">
                         <div class="sticky top-12 col-span-3 mr-8 h-[91vh] overflow-auto text-text">
                             <div>
                                 <h1 class="text-lg font-bold">Flight</h1>
@@ -96,7 +159,7 @@ const Home = () => {
                             </div>
                         </div>
 
-                        <div class="col-span-9 grid grid-cols-1 items-center justify-end gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+                        <div class="aria-expanded: col-span-9 grid grid-cols-1 items-center justify-end gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
                             {filteredDiscs}
                         </div>
                     </div>
