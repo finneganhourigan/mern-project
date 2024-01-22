@@ -18,11 +18,13 @@ const Home = () => {
     const [categoryFilter, setCategoryFilter] = useState([]);
     const [brandFilter, setBrandFilter] = useState([]);
 
+    const [sortOrder, setSortOrder] = useState('Top Selling');
+
     useEffect(() => {
         fetch('http://localhost:4000/api/discs')
             .then((response) => response.json())
             .then((data) => {
-                console.log(data);
+                // console.log(data);
                 setDiscData(data);
 
                 setDisplayedDiscs(
@@ -49,13 +51,21 @@ const Home = () => {
             .catch((error) => {
                 console.log('disc fetch error: ', error);
             });
+
+        // handleSortOrderChange();
     }, []);
 
     const handleSortOrderChange = (event) => {
-        const selectedSortOrder = event.target.value;
-        let orderedDiscs = [...discData];
+        //event will be null when called from filter button
+        if (event !== null) {
+            setSortOrder(event.target.value);
+        }
+        // console.log('Order: ', sortOrder);
 
-        if (selectedSortOrder === 'Name') {
+        let orderedDiscs = [...discData];
+        if (sortOrder === 'Top Selling') {
+            return orderedDiscs;
+        } else if (sortOrder === 'Name') {
             orderedDiscs.sort((a, b) => {
                 if (a.name < b.name) {
                     return -1;
@@ -65,49 +75,15 @@ const Home = () => {
                 }
                 return 0;
             });
-
-            setDisplayedDiscs(
-                orderedDiscs.map((disc) => {
-                    return (
-                        <Disc
-                            key={disc._id}
-                            name={disc.name}
-                            manufacturer={disc.manufacturer}
-                            speed={disc.speed}
-                            glide={disc.glide}
-                            turn={disc.turn}
-                            fade={disc.fade}
-                            category={disc.category}
-                            description={disc.description}
-                            image={disc.image}
-                        />
-                    );
-                }),
-            );
-        } else if (selectedSortOrder === 'Top Selling') {
-            setDisplayedDiscs(
-                orderedDiscs.map((disc) => {
-                    return (
-                        <Disc
-                            key={disc._id}
-                            name={disc.name}
-                            manufacturer={disc.manufacturer}
-                            speed={disc.speed}
-                            glide={disc.glide}
-                            turn={disc.turn}
-                            fade={disc.fade}
-                            category={disc.category}
-                            description={disc.description}
-                            image={disc.image}
-                        />
-                    );
-                }),
-            );
+            return orderedDiscs;
         }
-
-        // const updatedSortOrder = selectedSortOrder;
-        // console.log(updatedSortOrder);
     };
+
+    //when sortOrder is changed, useEffect with sortOrder as a dependency can call applyFilters() to automatically update displayedDiscs
+    //may need to pass in the current ordering of discs into applyFilters(), so it can account for the current order
+    // useEffect(() => {
+    //     applyFilters();
+    // }, [sortOrder]);
 
     const handleSpeedChange = (event) => {
         setSpeed(event.target.value);
@@ -155,11 +131,12 @@ const Home = () => {
     //apply filters based on user's selection of flight numbers, category, and brand
     //filters are applied in sequence, such that only user-selected filters apply
     const applyFilters = (event) => {
-        let filteredDiscs = [...discData];
+        let filteredDiscs = [...handleSortOrderChange(null)];
+        console.log(filteredDiscs);
 
         if (!(categoryFilter.length === 0)) {
             filteredDiscs = filteredDiscs.filter((disc) =>
-                categoryFilter.includes(disc.category),
+                categoryFilter.includes(disc.category.toLowerCase()),
             );
         }
         if (!(brandFilter.length === 0)) {
@@ -189,7 +166,7 @@ const Home = () => {
             );
         }
 
-        console.log(filteredDiscs);
+        // console.log(filteredDiscs);
 
         setDisplayedDiscs(
             filteredDiscs.map((disc) => {
