@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const Slider = ({ min, max, onChange }) => {
-    const [value, setValue] = useState(min);
+    const [value, setValue] = useState('*');
 
     const handleChange = (e) => {
         setValue(onChange(e));

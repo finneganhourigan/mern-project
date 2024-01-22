@@ -7,13 +7,13 @@ import Select from '../components/Select';
 const Home = () => {
     const [isLoading, setIsLoading] = useState(true);
 
-    const [discs, setDiscs] = useState([]);
+    const [discData, setDiscData] = useState([]);
     const [displayedDiscs, setDisplayedDiscs] = useState([]);
 
-    const [speed, setSpeed] = useState(1);
-    const [glide, setGlide] = useState(1);
-    const [turn, setTurn] = useState(-5);
-    const [fade, setFade] = useState(0);
+    const [speed, setSpeed] = useState('*');
+    const [glide, setGlide] = useState('*');
+    const [turn, setTurn] = useState('*');
+    const [fade, setFade] = useState('*');
 
     const [categoryFilter, setCategoryFilter] = useState([]);
     const [brandFilter, setBrandFilter] = useState([]);
@@ -23,7 +23,7 @@ const Home = () => {
             .then((response) => response.json())
             .then((data) => {
                 console.log(data);
-                setDiscs(data);
+                setDiscData(data);
 
                 setDisplayedDiscs(
                     data.map((disc) => {
@@ -53,7 +53,7 @@ const Home = () => {
 
     const handleSortOrderChange = (event) => {
         const selectedSortOrder = event.target.value;
-        let orderedDiscs = [...discs];
+        let orderedDiscs = [...discData];
 
         if (selectedSortOrder === 'Name') {
             orderedDiscs.sort((a, b) => {
@@ -129,8 +129,8 @@ const Home = () => {
         return fade;
     };
 
+    //add/remove checkbox's category to categoryFilter array
     const handleCategoryChange = (event, category) => {
-        //add/remove checkbox's category to categoryFilter array
         if (event.target.checked) {
             setCategoryFilter([...categoryFilter, category.toLowerCase()]);
         } else {
@@ -142,8 +142,8 @@ const Home = () => {
         console.log(categoryFilter);
     };
 
+    // add/remove checkbox's brand to brandFilter array
     const handleBrandChange = (event, brand) => {
-        //add/remove checkbox's brand to brandFilter array
         if (event.target.checked) {
             setBrandFilter([...brandFilter, brand]);
         } else {
@@ -153,10 +153,10 @@ const Home = () => {
     };
 
     //apply filters based on user's selection of flight numbers, category, and brand
-    //filters are applied in sequence, so only user-selected filters apply
-    const applyFilters = () => {
-        let filteredDiscs = [...discs];
-        console.log(filteredDiscs);
+    //filters are applied in sequence, such that only user-selected filters apply
+    const applyFilters = (event) => {
+        let filteredDiscs = [...discData];
+
         if (!(categoryFilter.length === 0)) {
             filteredDiscs = filteredDiscs.filter((disc) =>
                 categoryFilter.includes(disc.category),
@@ -165,6 +165,27 @@ const Home = () => {
         if (!(brandFilter.length === 0)) {
             filteredDiscs = filteredDiscs.filter((disc) =>
                 brandFilter.includes(disc.manufacturer),
+            );
+        }
+
+        if (speed !== '*') {
+            filteredDiscs = filteredDiscs.filter(
+                (disc) => Math.floor(disc.speed) === parseInt(speed),
+            );
+        }
+        if (glide !== '*') {
+            filteredDiscs = filteredDiscs.filter(
+                (disc) => Math.floor(disc.glide) === parseInt(glide),
+            );
+        }
+        if (turn !== '*') {
+            filteredDiscs = filteredDiscs.filter(
+                (disc) => Math.floor(disc.turn) === parseInt(turn),
+            );
+        }
+        if (fade !== '*') {
+            filteredDiscs = filteredDiscs.filter(
+                (disc) => Math.floor(disc.fade) === parseInt(fade),
             );
         }
 
@@ -196,6 +217,15 @@ const Home = () => {
                 </h2>,
             );
         }
+    };
+
+    const resetFilters = (event) => {
+        setSpeed('*');
+        setGlide('*');
+        setTurn('*');
+        setFade('*');
+        setCategoryFilter([]);
+        setBrandFilter([]);
     };
 
     return (
@@ -309,7 +339,15 @@ const Home = () => {
                                     onChange={handleBrandChange}
                                 />
                             </div>
-                            <div class="my-1 flex justify-end">
+                            <div class="my-1 flex justify-between">
+                                <button
+                                    class="rounded-md bg-slate-700 p-1 hover:bg-slate-800"
+                                    onClick={() => {
+                                        resetFilters();
+                                    }}
+                                >
+                                    Reset Filters
+                                </button>
                                 <button
                                     class="rounded-md bg-primary p-1 hover:bg-red-900"
                                     onClick={() => {
