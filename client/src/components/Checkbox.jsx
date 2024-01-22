@@ -1,16 +1,22 @@
 import { useState } from 'react';
 
-const Checkbox = ({ brand }) => {
-    const [checked, setChecked] = useState(false);
+const Checkbox = ({ label, onChange }) => {
+    const [isChecked, setIsChecked] = useState(false);
+
+    const handleChange = (event) => {
+        setIsChecked(!isChecked);
+        onChange(event, label);
+    };
 
     return (
         <div class="flex items-center">
             <input
                 type="checkbox"
-                checked={checked}
-                onChange={() => setChecked(!checked)}
+                checked={isChecked}
+                // value={isChecked}
+                onChange={handleChange}
             />
-            <label class="ml-2 overflow-hidden">{brand}</label>
+            <label class="ml-2 overflow-hidden">{label}</label>
         </div>
     );
 };

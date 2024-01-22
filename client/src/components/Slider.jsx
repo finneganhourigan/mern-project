@@ -1,11 +1,11 @@
 import { useState } from 'react';
 
-const Slider = ({ min, max }) => {
+const Slider = ({ min, max, onChange }) => {
     const [value, setValue] = useState(min);
 
     const handleChange = (e) => {
-        setValue(e.target.value);
-        console.log(value);
+        setValue(onChange(e));
+        // console.log(value);
     };
 
     return (

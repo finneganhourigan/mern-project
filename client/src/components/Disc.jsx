@@ -1,6 +1,6 @@
 const Disc = (props) => {
     return (
-        <div class="rounded-3xl border-2 border-black p-2 text-center font-shippori shadow-discShadow">
+        <div class="h-fit rounded-3xl border-2 border-black p-2 text-center font-shippori shadow-discShadow">
             <h1 class="text-2xl">{props.name}</h1>
             <h3 class="text-xl">{props.manufacturer}</h3>
             <img
