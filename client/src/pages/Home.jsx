@@ -7,9 +7,10 @@ import Select from '../components/Select';
 const Home = () => {
     const [isLoading, setIsLoading] = useState(true);
 
-    const [discData, setDiscData] = useState([]);
-    const [displayedDiscs, setDisplayedDiscs] = useState([]);
+    const [discData, setDiscData] = useState([]); //json data
+    const [displayedDiscs, setDisplayedDiscs] = useState([]); //array of Disc components
 
+    //input state variables
     const [speed, setSpeed] = useState('*');
     const [glide, setGlide] = useState('*');
     const [turn, setTurn] = useState('*');
@@ -56,34 +57,33 @@ const Home = () => {
     }, []);
 
     const handleSortOrderChange = (event) => {
-        //event will be null when called from filter button
+        //event will be null when called from applyFilters()
         if (event !== null) {
             setSortOrder(event.target.value);
-        }
-        // console.log('Order: ', sortOrder);
-
-        let orderedDiscs = [...discData];
-        if (sortOrder === 'Top Selling') {
-            return orderedDiscs;
-        } else if (sortOrder === 'Name') {
-            orderedDiscs.sort((a, b) => {
-                if (a.name < b.name) {
-                    return -1;
-                }
-                if (a.name > b.name) {
-                    return 1;
-                }
-                return 0;
-            });
-            return orderedDiscs;
+        } else {
+            // console.log('Order: ', sortOrder);
+            let orderedDiscs = [...discData];
+            if (sortOrder === 'Top Selling') {
+                return orderedDiscs;
+            } else if (sortOrder === 'Name') {
+                orderedDiscs.sort((a, b) => {
+                    if (a.name < b.name) {
+                        return -1;
+                    }
+                    if (a.name > b.name) {
+                        return 1;
+                    }
+                    return 0;
+                });
+                return orderedDiscs;
+            }
         }
     };
 
-    //when sortOrder is changed, useEffect with sortOrder as a dependency can call applyFilters() to automatically update displayedDiscs
-    //may need to pass in the current ordering of discs into applyFilters(), so it can account for the current order
-    // useEffect(() => {
-    //     applyFilters();
-    // }, [sortOrder]);
+    //automatically update displayedDiscs when user selects filters
+    useEffect(() => {
+        applyFilters();
+    }, [sortOrder, categoryFilter, brandFilter, speed, glide, turn, fade]);
 
     const handleSpeedChange = (event) => {
         setSpeed(event.target.value);
@@ -132,7 +132,7 @@ const Home = () => {
     //filters are applied in sequence, such that only user-selected filters apply
     const applyFilters = (event) => {
         let filteredDiscs = [...handleSortOrderChange(null)];
-        console.log(filteredDiscs);
+        // console.log(filteredDiscs);
 
         if (!(categoryFilter.length === 0)) {
             filteredDiscs = filteredDiscs.filter((disc) =>
@@ -226,24 +226,28 @@ const Home = () => {
                                     min={1}
                                     max={13}
                                     onChange={handleSpeedChange}
+                                    val={speed}
                                 />
                                 <h2>Glide:</h2>
                                 <Slider
                                     min={1}
                                     max={7}
                                     onChange={handleGlideChange}
+                                    val={glide}
                                 />
                                 <h2>Turn:</h2>
                                 <Slider
                                     min={-5}
                                     max={1}
                                     onChange={handleTurnChange}
+                                    val={turn}
                                 />
                                 <h2>Fade:</h2>
                                 <Slider
                                     min={0}
                                     max={5}
                                     onChange={handleFadeChange}
+                                    val={fade}
                                 />
                             </div>
                             <div class="">
@@ -316,7 +320,7 @@ const Home = () => {
                                     onChange={handleBrandChange}
                                 />
                             </div>
-                            <div class="my-1 flex justify-between">
+                            <div class="my-1 flex justify-end">
                                 <button
                                     class="rounded-md bg-slate-700 p-1 hover:bg-slate-800"
                                     onClick={() => {
@@ -324,14 +328,6 @@ const Home = () => {
                                     }}
                                 >
                                     Reset Filters
-                                </button>
-                                <button
-                                    class="rounded-md bg-primary p-1 hover:bg-red-900"
-                                    onClick={() => {
-                                        applyFilters();
-                                    }}
-                                >
-                                    Apply Filters
                                 </button>
                             </div>
                         </div>

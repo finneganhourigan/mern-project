@@ -1,11 +1,9 @@
 import { useState } from 'react';
 
-const Slider = ({ min, max, onChange }) => {
-    const [value, setValue] = useState('*');
-
+const Slider = ({ min, max, onChange, val }) => {
     const handleChange = (e) => {
-        setValue(onChange(e));
-        // console.log(value);
+        onChange(e);
+        // console.log(val);
     };
 
     return (
@@ -17,7 +15,7 @@ const Slider = ({ min, max, onChange }) => {
                     min={min}
                     max={max}
                     step={1}
-                    value={value}
+                    value={val}
                     onChange={handleChange}
                     class="w-full"
                 />
@@ -27,7 +25,7 @@ const Slider = ({ min, max, onChange }) => {
                 for="slider"
                 class="ml-2 w-8 border-2 border-white text-center xl:border-solid"
             >
-                {value}
+                {val}
             </label>
         </div>
     );
