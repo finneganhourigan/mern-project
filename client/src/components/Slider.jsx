@@ -1,9 +1,6 @@
-import { useState } from 'react';
-
 const Slider = ({ min, max, onChange, val }) => {
-    const handleChange = (e) => {
-        onChange(e);
-        // console.log(val);
+    const handleChange = (event) => {
+        onChange(event);
     };
 
     return (

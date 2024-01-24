@@ -18,6 +18,7 @@ const Home = () => {
 
     const [categoryFilter, setCategoryFilter] = useState([]);
     const [brandFilter, setBrandFilter] = useState([]);
+    const [checkboxStates, setCheckboxStates] = useState(Array(16).fill(false)); //indices 0-3 are categories, rest brands
 
     const [sortOrder, setSortOrder] = useState('Top Selling');
 
@@ -106,26 +107,35 @@ const Home = () => {
     };
 
     //add/remove checkbox's category to categoryFilter array
-    const handleCategoryChange = (event, category) => {
+    const handleCategoryChange = (event, category, index) => {
+        const newCheckboxStates = [...checkboxStates];
+
         if (event.target.checked) {
             setCategoryFilter([...categoryFilter, category.toLowerCase()]);
+            newCheckboxStates[index] = true;
+            setCheckboxStates(newCheckboxStates);
         } else {
             setCategoryFilter(
                 categoryFilter.filter((cat) => cat !== category.toLowerCase()),
             );
+            newCheckboxStates[index] = false;
+            setCheckboxStates(newCheckboxStates);
         }
-
-        console.log(categoryFilter);
     };
 
     // add/remove checkbox's brand to brandFilter array
-    const handleBrandChange = (event, brand) => {
+    const handleBrandChange = (event, brand, index) => {
+        const newCheckboxStates = [...checkboxStates];
+
         if (event.target.checked) {
             setBrandFilter([...brandFilter, brand]);
+            newCheckboxStates[index] = true;
+            setCheckboxStates(newCheckboxStates);
         } else {
             setBrandFilter(brandFilter.filter((br) => br !== brand));
+            newCheckboxStates[index] = false;
+            setCheckboxStates(newCheckboxStates);
         }
-        console.log(brandFilter);
     };
 
     //apply filters based on user's selection of flight numbers, category, and brand
@@ -203,6 +213,7 @@ const Home = () => {
         setFade('*');
         setCategoryFilter([]);
         setBrandFilter([]);
+        setCheckboxStates(Array(16).fill(false));
     };
 
     return (
@@ -255,18 +266,26 @@ const Home = () => {
                                 <Checkbox
                                     label="Distance Driver"
                                     onChange={handleCategoryChange}
+                                    checkboxStatesIndex={0}
+                                    checked={checkboxStates[0]}
                                 />
                                 <Checkbox
                                     label="Fairway Driver"
                                     onChange={handleCategoryChange}
+                                    checkboxStatesIndex={1}
+                                    checked={checkboxStates[1]}
                                 />
                                 <Checkbox
                                     label="Midrange"
                                     onChange={handleCategoryChange}
+                                    checkboxStatesIndex={2}
+                                    checked={checkboxStates[2]}
                                 />
                                 <Checkbox
                                     label="Putter"
                                     onChange={handleCategoryChange}
+                                    checkboxStatesIndex={3}
+                                    checked={checkboxStates[3]}
                                 />
                             </div>
                             <div class="">
@@ -274,50 +293,74 @@ const Home = () => {
                                 <Checkbox
                                     label="Axiom"
                                     onChange={handleBrandChange}
+                                    checkboxStatesIndex={4}
+                                    checked={checkboxStates[4]}
                                 />
                                 <Checkbox
                                     label="Clash Discs"
                                     onChange={handleBrandChange}
+                                    checkboxStatesIndex={5}
+                                    checked={checkboxStates[5]}
                                 />
                                 <Checkbox
                                     label="Discraft"
                                     onChange={handleBrandChange}
+                                    checkboxStatesIndex={6}
+                                    checked={checkboxStates[6]}
                                 />
                                 <Checkbox
                                     label="Dynamic Discs"
                                     onChange={handleBrandChange}
+                                    checkboxStatesIndex={7}
+                                    checked={checkboxStates[7]}
                                 />
                                 <Checkbox
                                     label="Gateway"
                                     onChange={handleBrandChange}
+                                    checkboxStatesIndex={8}
+                                    checked={checkboxStates[8]}
                                 />
                                 <Checkbox
                                     label="Infinite Discs"
                                     onChange={handleBrandChange}
+                                    checkboxStatesIndex={9}
+                                    checked={checkboxStates[9]}
                                 />
                                 <Checkbox
                                     label="Innova"
                                     onChange={handleBrandChange}
+                                    checkboxStatesIndex={10}
+                                    checked={checkboxStates[10]}
                                 />
                                 <Checkbox
                                     label="Kastaplast"
                                     onChange={handleBrandChange}
+                                    checkboxStatesIndex={11}
+                                    checked={checkboxStates[11]}
                                 />
                                 <Checkbox
                                     label="Latitude 64"
                                     onChange={handleBrandChange}
+                                    checkboxStatesIndex={12}
+                                    checked={checkboxStates[12]}
                                 />
                                 <Checkbox
                                     label="MVP"
                                     onChange={handleBrandChange}
+                                    checkboxStatesIndex={13}
+                                    checked={checkboxStates[13]}
                                 />
                                 <Checkbox
                                     label="Prodigy"
                                     onChange={handleBrandChange}
+                                    checkboxStatesIndex={14}
+                                    checked={checkboxStates[14]}
                                 />
                                 <Checkbox
                                     label="Thought Space Athletics"
                                     onChange={handleBrandChange}
+                                    checkboxStatesIndex={15}
+                                    checked={checkboxStates[15]}
                                 />
                             </div>
                             <div class="my-1 flex justify-end">
