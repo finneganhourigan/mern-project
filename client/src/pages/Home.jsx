@@ -184,6 +184,7 @@ const Home = () => {
                 return (
                     <Disc
                         key={disc._id}
+                        id={disc._id}
                         name={disc.name}
                         manufacturer={disc.manufacturer}
                         speed={disc.speed}
