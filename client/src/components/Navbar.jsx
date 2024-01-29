@@ -14,9 +14,6 @@ const Navbar = () => {
                 <Link to="/about" class="font-shippori text-xl">
                     About
                 </Link>
-                <Link to="/build" class="font-shippori text-xl">
-                    Bag Builder
-                </Link>
             </div>
         </header>
     );
