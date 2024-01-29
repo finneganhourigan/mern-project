@@ -14,27 +14,36 @@ const DiscInfo = () => {
     }, []);
 
     return (
-        <div class="flex h-[95vh] items-center">
+        <div class="flex items-center lg:h-[95vh]">
             {!disc ? (
                 <h1 class="flex h-screen items-center justify-center text-3xl">
                     Loading...
                 </h1>
             ) : (
-                <div class="grid grid-cols-12 items-center gap-12">
+                <div class="mx-8 flex flex-col items-center lg:mx-0 lg:grid lg:grid-cols-12 lg:gap-12">
+                    <div class="flex flex-col items-center lg:hidden">
+                        <h1 class="text-5xl">{disc.name}</h1>
+                        <h3 class="text-lg">{disc.manufacturer}</h3>
+                    </div>
+
                     <div class="col-span-1"></div>
+
                     <img
-                        class="col-span-4 mr-12"
+                        class="my-4 h-auto w-3/4 lg:col-span-4 lg:mr-12 lg:w-auto"
                         src={`/assets/${disc.image}`}
                         alt={disc.name}
                     />
-                    <div class="col-span-6">
-                        <h1 class="text-5xl">{disc.name}</h1>
-                        <h3 class="text-lg">{disc.manufacturer}</h3>
-                        <br></br>
+
+                    <div class="lg:col-span-6">
+                        <div class="hidden lg:inline-block">
+                            <h1 class="text-5xl">{disc.name}</h1>
+                            <h3 class="text-lg">{disc.manufacturer}</h3>
+                            <br></br>
+                        </div>
                         <p class="text-lg">{disc.description}</p>
                         <br></br>
                         <p>Flight Numbers:</p>
-                        <div class="grid grid-cols-2 md:grid-cols-4">
+                        <div class="grid grid-cols-2 lg:grid-cols-4">
                             <p class="flex items-center justify-center border-2 p-2">
                                 Speed: {disc.speed}
                             </p>
@@ -49,6 +58,7 @@ const DiscInfo = () => {
                             </p>
                         </div>
                     </div>
+
                     <div class="col-span-1"></div>
                 </div>
             )}
