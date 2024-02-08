@@ -14,6 +14,9 @@ const Navbar = () => {
                 <Link to="/about" class="font-shippori text-xl">
                     About
                 </Link>
+                <Link to="/learn" class="font-shippori text-xl">
+                    Learn
+                </Link>
             </div>
         </header>
     );

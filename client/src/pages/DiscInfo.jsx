@@ -40,7 +40,9 @@ const DiscInfo = () => {
                             <h3 class="text-lg">{disc.manufacturer}</h3>
                             <br></br>
                         </div>
-                        <p class="text-lg">{disc.description}</p>
+                        <p class="whitespace-pre-line text-lg">
+                            {disc.description}
+                        </p>
                         <br></br>
                         <p>Flight Numbers:</p>
                         <div class="grid grid-cols-2 lg:grid-cols-4">
