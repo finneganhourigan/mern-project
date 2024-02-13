@@ -39,7 +39,7 @@ const About = () => {
                     <div class="mx-auto flex items-center justify-center">
                         <img
                             class="h-auto w-[20%] min-w-16"
-                            src="/assets/techImages/GitHub.svg"
+                            src="/assets/techImages/GitHub.png"
                         />
                         <p class="mx-2">Project Repo</p>
                     </div>
@@ -79,7 +79,7 @@ const About = () => {
                 />
                 <TechCard
                     title="Express"
-                    image="/assets/techImages/Express.svg"
+                    image="/assets/techImages/Express.png"
                     description="Built on Node.js, Express offers a set of features and
                 tools that simplify the development of both the application and
                 API."
@@ -99,10 +99,10 @@ const About = () => {
             </div>
 
             <h1 class="py-4 text-3xl font-bold">Secondary Technologies:</h1>
-            <div class="grid grid-cols-2 gap-4 pb-4 sm:grid-cols-2  lg:grid-cols-3">
+            <div class="grid grid-cols-2 gap-4 pb-4 sm:grid-cols-2  lg:grid-cols-4">
                 <TechCard
                     title="GitHub"
-                    image="/assets/techImages/GitHub.svg"
+                    image="/assets/techImages/GitHub.png"
                     description="Beyond serving as a means for version control, GitHub allowed me to confidently implement the practice of continuous development through the project's lifecycle."
                 />
                 <TechCard
@@ -110,13 +110,25 @@ const About = () => {
                     image="/assets/techImages/Tailwind CSS.svg"
                     description="I used Tailwind as my CSS framework for rapid UI development. The Prettier plugin works in tandem with Tailwind to ensure consistent code formatting for improved readability."
                 />
-                <div class="col-span-2 ml-[25%] w-1/2 lg:col-span-1 lg:m-0 lg:grid lg:w-full">
+                <TechCard
+                    title="Vercel"
+                    image="/assets/techImages/Vercel.png"
+                    description="Vercel is providing the platform that allows me to showcase this website. Being synced with the project's GitHub repo, it allows for continuous delivery with ease."
+                />
+                <TechCard
+                    title="Postman"
+                    image="/assets/techImages/Postman.svg"
+                    description="Postman let me test and debug my API endpoints throughout development. It allowed me to send requests to my backend, inspect responses, and analyze data flow."
+                />
+
+                {/* Div for if I need an odd number of technologies (change grid to lg:grid-cols-3) */}
+                {/* <div class="col-span-2 ml-[25%] w-1/2 lg:col-span-1 lg:m-0 lg:grid lg:w-full">
                     <TechCard
                         title="Docker"
                         image="/assets/techImages/Docker.svg"
                         description="maybe idk yet."
                     />
-                </div>
+                </div> */}
             </div>
         </div>
     );
