@@ -15,7 +15,7 @@ const About = () => {
                 </p>
                 <img
                     class="mx-auto w-[50%] xl:ml-10 xl:w-[40%]"
-                    src="/assets/axiom-crave.png"
+                    src="/assets/discs/axiom-crave.png"
                 />
             </div>
 

@@ -8,7 +8,7 @@ const Disc = (props) => {
                 <h3 class="text-xl">{props.manufacturer}</h3>
                 <img
                     class="mx-auto my-2 h-auto w-4/5"
-                    src={`/assets/${props.image}`}
+                    src={`/assets/discs/${props.image}`}
                     alt={props.name}
                 />
                 <h3 class="text-xl">{props.category}</h3>
