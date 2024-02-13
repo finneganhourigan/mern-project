@@ -30,7 +30,7 @@ const DiscInfo = () => {
 
                     <img
                         class="my-4 h-auto w-3/4 lg:col-span-4 lg:mr-12 lg:w-auto"
-                        src={`/assets/${disc.image}`}
+                        src={`/assets/discs/${disc.image}`}
                         alt={disc.name}
                     />
 
