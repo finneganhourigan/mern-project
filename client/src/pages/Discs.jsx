@@ -4,7 +4,7 @@ import Slider from '../components/Slider';
 import Checkbox from '../components/Checkbox';
 import Select from '../components/Select';
 
-const Home = () => {
+const Discs = () => {
     const [isLoading, setIsLoading] = useState(true);
 
     const [discData, setDiscData] = useState([]); //json data
@@ -23,7 +23,7 @@ const Home = () => {
     const [sortOrder, setSortOrder] = useState('Top Selling');
 
     useEffect(() => {
-        fetch('http://localhost:4000/api/discs')
+        fetch('https://disc-golf-app-backend.onrender.com/api/discs')
             .then((response) => response.json())
             .then((data) => {
                 // console.log(data);
@@ -387,4 +387,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Discs;

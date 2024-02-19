@@ -6,7 +6,7 @@ const DiscInfo = () => {
     const { id } = useParams();
 
     useEffect(() => {
-        fetch(`http://localhost:4000/api/discs/${id}`)
+        fetch(`https://disc-golf-app-backend.onrender.com/api/discs/${id}`)
             .then((response) => response.json())
             .then((data) => {
                 setDisc(data);

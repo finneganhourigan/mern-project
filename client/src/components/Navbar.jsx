@@ -9,7 +9,7 @@ const Navbar = () => {
 
             <div class="flex space-x-8 whitespace-nowrap">
                 <Link to="/" class="font-shippori text-xl">
-                    Home
+                    Discs
                 </Link>
                 <Link to="/about" class="font-shippori text-xl">
                     About
