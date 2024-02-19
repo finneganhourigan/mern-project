@@ -4,7 +4,7 @@ import Slider from '../components/Slider';
 import Checkbox from '../components/Checkbox';
 import Select from '../components/Select';
 
-const Home = () => {
+const Discs = () => {
     const [isLoading, setIsLoading] = useState(true);
 
     const [discData, setDiscData] = useState([]); //json data
@@ -387,4 +387,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Discs;
