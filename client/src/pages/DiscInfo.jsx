@@ -14,13 +14,13 @@ const DiscInfo = () => {
     }, []);
 
     return (
-        <div class="flex items-center lg:h-[95vh]">
+        <div class="flex items-center px-[5%] sm:px-[10%] md:px-[20%] lg:h-[95vh] lg:px-[10%]">
             {!disc ? (
                 <h1 class="flex h-screen items-center justify-center text-3xl">
                     Loading...
                 </h1>
             ) : (
-                <div class="mx-8 flex flex-col items-center lg:mx-0 lg:grid lg:grid-cols-12 lg:gap-12">
+                <div class="mx-8 flex flex-col items-center lg:grid lg:grid-cols-12 lg:gap-12">
                     <div class="flex flex-col items-center lg:hidden">
                         <h1 class="text-5xl">{disc.name}</h1>
                         <h3 class="text-lg">{disc.manufacturer}</h3>
