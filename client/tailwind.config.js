@@ -21,6 +21,14 @@ module.exports = {
             boxShadow: {
                 discShadow: '2px 4px 4px rgba(0, 0, 0, 0.8)', // Custom drop shadow
             },
+            screens: {
+                sm: '640px',
+                md: '768px',
+                lg: '1024px',
+                xl: '1280px',
+                '2xl': '1536px',
+                'custom-about-page': '1450px',
+            },
         },
     },
     plugins: ['prettier-plugin-tailwindcss'],
