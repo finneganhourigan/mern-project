@@ -14,8 +14,8 @@ const About = () => {
                     skills to potential employers.
                 </p>
                 <img
-                    class="mx-auto w-[50%] xl:ml-10 xl:w-[40%]"
-                    src="/assets/discs/axiom-crave.png"
+                    class="mx-auto w-[50%] rounded-full shadow-sm shadow-black xl:ml-10 xl:w-[40%] "
+                    src="/assets/me1024.jpg"
                 />
             </div>
 
