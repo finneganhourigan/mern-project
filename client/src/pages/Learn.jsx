@@ -15,7 +15,7 @@ const learn = () => {
                     </p>
                 </div>
                 <img
-                    class="mx-auto w-[70%] xl:ml-10 xl:w-[40%]"
+                    class="mx-auto w-[55%] xl:ml-10 xl:w-[40%]"
                     src="/assets/flightPaths/standardFlight.png"
                 />
             </div>
@@ -57,48 +57,55 @@ const learn = () => {
                 <em> stability</em> and subsequent flight path.
             </p>
 
-            <p class="py-4 text-lg font-bold">Overstable Discs</p>
-            <div class="xl:flex">
-                <p class="flex items-center pb-4">
-                    These discs have little turn and a high positive fade
-                    rating. They resist turning to the right (RHBH) during the
-                    initial part of the flight and exhibit a strong leftward
-                    fade at the end of the flight. Overstable discs are ideal
-                    for handling windy conditions, making accurate approaches,
-                    or executing shots that require a reliable leftward finish.
-                </p>
+            <div class="items-center py-4 xl:flex">
+                <div>
+                    <p class="py-4 text-lg font-bold">Overstable Discs</p>
+                    <p class="pb-4">
+                        These discs have little turn and a high positive fade
+                        rating. They resist turning to the right (RHBH) during
+                        the initial part of the flight and exhibit a strong
+                        leftward fade at the end of the flight. Overstable discs
+                        are ideal for handling windy conditions, making accurate
+                        approaches, or executing shots that require a reliable
+                        leftward finish.
+                    </p>
+                </div>
                 <img
-                    class="mx-auto w-[70%] xl:ml-10 xl:w-[40%]"
+                    class="mx-auto w-[55%] xl:ml-10 xl:w-[40%]"
                     src="/assets/flightPaths/overstableFlight.png"
                 />
             </div>
 
-            <p class="py-4 text-lg font-bold">Neutral Discs</p>
-            <div class="xl:flex">
-                <p class="flex items-center pb-4">
-                    These discs have a balanced combination of turn and fade
-                    ratings, often close to zero or slightly negative Turn and
-                    Fade. They tend to fly straight with minimal deviation from
-                    the intended line, making them versatile and reliable for a
-                    variety of shots and skill levels.
-                </p>
+            <div class="items-center py-4 xl:flex">
+                <div>
+                    <p class="py-4 text-lg font-bold">Neutral Discs</p>
+                    <p class="pb-4">
+                        These discs have a balanced combination of turn and fade
+                        ratings, often close to zero or slightly negative Turn
+                        and Fade. They tend to fly straight with minimal
+                        deviation from the intended line, making them versatile
+                        and reliable for a variety of shots and skill levels.
+                    </p>
+                </div>
                 <img
-                    class="mx-auto w-[70%] xl:ml-10 xl:w-[40%]"
+                    class="mx-auto w-[55%] xl:ml-10 xl:w-[40%]"
                     src="/assets/flightPaths/neutralFlight.png"
                 />
             </div>
 
-            <p class="py-4 text-lg font-bold">Understable Discs</p>
-            <div class="xl:flex">
-                <p class="flex items-center pb-4">
-                    These discs have a high negative Turn rating and a low
-                    positive fade rating. When thrown at the right speed, they
-                    will turn to the right (RHBH) during the initial part of the
-                    flight, then gradually come back to the left as they slow
-                    down, exhibiting minimal fade.
-                </p>
+            <div class="items-center py-4 xl:flex">
+                <div>
+                    <p class="py-4 text-lg font-bold">Understable Discs</p>
+                    <p class="pb-4">
+                        These discs have a high negative Turn rating and a low
+                        positive fade rating. When thrown at the right speed,
+                        they will turn to the right (RHBH) during the initial
+                        part of the flight, then gradually come back to the left
+                        as they slow down, exhibiting minimal fade.
+                    </p>
+                </div>
                 <img
-                    class="mx-auto w-[70%] xl:ml-10 xl:w-[40%]"
+                    class="mx-auto w-[55%] xl:ml-10 xl:w-[40%]"
                     src="/assets/flightPaths/understableFlight.png"
                 />
             </div>
