@@ -213,9 +213,9 @@ const Discs = () => {
         setGlide('*');
         setTurn('*');
         setFade('*');
-        setCategoryFilter([]);
-        setBrandFilter([]);
-        setCheckboxStates(Array(16).fill(false));
+        // setCategoryFilter([]);
+        // setBrandFilter([]);
+        // setCheckboxStates(Array(16).fill(false));
     };
 
     return (
@@ -230,8 +230,8 @@ const Discs = () => {
                         <Select onChange={handleSortOrderChange} />
                     </div>
                     {/* // 2 sections for [sidebar | grid]. 2 columns and 10 columns respectively */}
-                    <div class="grid grid-cols-12 px-2 pb-8 md:px-8">
-                        <div class="sticky top-12 col-span-3 mr-8 h-[91vh] overflow-auto text-text">
+                    <div class="grid grid-cols-12 px-2 pb-4 lg:px-8">
+                        <div class="sticky top-12 col-span-3 mr-4 hidden h-[91vh] overflow-auto text-text md:block">
                             <div>
                                 <h1 class="text-lg font-bold">Flight</h1>
                                 <h2>Speed:</h2>
@@ -263,6 +263,18 @@ const Discs = () => {
                                     val={fade}
                                 />
                             </div>
+
+                            <div class=" my-1 flex justify-end">
+                                <button
+                                    class="rounded-md bg-slate-700 p-1 hover:bg-slate-800"
+                                    onClick={() => {
+                                        resetFilters();
+                                    }}
+                                >
+                                    Reset Flight Filters
+                                </button>
+                            </div>
+
                             <div class="">
                                 <h1 class="text-lg font-bold">Category</h1>
                                 <Checkbox
@@ -365,19 +377,9 @@ const Discs = () => {
                                     checked={checkboxStates[15]}
                                 />
                             </div>
-                            <div class="my-1 flex justify-end">
-                                <button
-                                    class="rounded-md bg-slate-700 p-1 hover:bg-slate-800"
-                                    onClick={() => {
-                                        resetFilters();
-                                    }}
-                                >
-                                    Reset Filters
-                                </button>
-                            </div>
                         </div>
 
-                        <div class="col-span-9 grid grid-cols-1 items-center gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+                        <div class="col-span-12 grid grid-cols-2 items-center gap-4 md:col-span-9 lg:grid-cols-3 xl:grid-cols-4">
                             {displayedDiscs}
                         </div>
                     </div>

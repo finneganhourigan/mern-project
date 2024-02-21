@@ -5,7 +5,7 @@ const Slider = ({ min, max, onChange, val }) => {
 
     return (
         <div class="mb-2 mt-1 flex items-center">
-            <div class="w-[85%]">
+            <div class="w-[100%]">
                 <input
                     type="range"
                     id="slider"
