@@ -6,10 +6,11 @@ const learn = () => {
                 The world of disc golf discs can be daunting for newcomers to
                 the sport due to its complexity. The unintuitive flight rating
                 system, plethora of plastics options, and extensive range of
-                discs available create a high barrier to entry. ___ aims to
-                simplify this process by providing a resource for new disc golf
-                enthusiasts to filter out excess information and focus on what's
-                essential when selecting discs for their game.
+                discs available create a high barrier to entry.
+                FrolfFundamentals aims to simplify this process by providing a
+                resource for new disc golf enthusiasts to filter out excess
+                information and focus on what's essential when selecting discs
+                for their game.
             </p>
 
             <h1 class="py-4 text-3xl font-bold">Flight Ratings</h1>

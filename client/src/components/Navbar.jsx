@@ -2,9 +2,12 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <header class="sticky top-0 flex justify-between gap-4 bg-background px-8 py-2 text-text">
-            <Link to="/" class="font-shippori text-xl md:block">
-                Logo
+        <header class="sticky top-0 flex justify-between gap-4 bg-background px-1 py-2 text-text sm:px-8">
+            <Link
+                to="/"
+                class="flex items-center font-shippori text-xl md:block"
+            >
+                <img class="w-full" src="/assets/logo.svg" />
             </Link>
 
             <div class="flex space-x-8 whitespace-nowrap">

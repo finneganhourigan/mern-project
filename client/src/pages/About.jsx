@@ -8,12 +8,12 @@ const About = () => {
                 <div class="items-center xl:flex">
                     <p class="pb-4">
                         Hello, I'm Finn, the driving force and sole creator
-                        behind ___. Recently graduating from UW-Madison with a
-                        degree in computer science, I'm currently seeking
-                        opportunities within software/web development. Themed
-                        around a new hobby of mine, ___, is a portfolio project
-                        I've developed to demonstrate my skills to potential
-                        employers.
+                        behind FrolfFundamentals. Recently graduating from
+                        UW-Madison with a degree in computer science, I'm
+                        currently seeking opportunities within software/web
+                        development. Themed around a new hobby of mine,
+                        FrolfFundamentals is a portfolio project I've developed
+                        to demonstrate my skills to potential employers.
                     </p>
                     <img
                         class="mx-auto w-[50%] rounded-full shadow-sm shadow-black xl:ml-10 xl:w-[40%] "

@@ -23,7 +23,7 @@ const Discs = () => {
     const [sortOrder, setSortOrder] = useState('Top Selling');
 
     useEffect(() => {
-        fetch('https://disc-golf-app-backend.onrender.com/api/discs')
+        fetch('https://disc-golf-app-backend.onrender.com/api/discs/') //http://localhost:4000/api/discs
             .then((response) => response.json())
             .then((data) => {
                 // console.log(data);
@@ -226,12 +226,21 @@ const Discs = () => {
                 </h2>
             ) : (
                 <div>
-                    <div class="sticky top-10">
-                        <Select onChange={handleSortOrderChange} />
+                    <div class="sticky top-10 mx-8 flex justify-between">
+                        {/* Sidebar toggle for small screens */}
+                        <div class="md:hidden">
+                            <p>test</p>
+                        </div>
+
+                        {/* Sort Order Selection */}
+                        <div class="w-full justify-end">
+                            <Select onChange={handleSortOrderChange} />
+                        </div>
                     </div>
                     {/* // 2 sections for [sidebar | grid]. 3 columns and 9 columns respectively */}
                     <div class="grid grid-cols-12 px-2 pb-4 lg:px-8">
-                        <div class="sticky top-12 col-span-3 mr-4 hidden h-[91vh] overflow-auto text-text md:block">
+                        {/* Sidebar for larger screens*/}
+                        <div class="sticky top-12 col-span-3 mr-4 hidden h-[85vh] overflow-auto text-text md:block">
                             <div>
                                 <h1 class="text-lg font-bold">Flight</h1>
                                 <h2>Speed:</h2>
