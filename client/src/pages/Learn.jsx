@@ -1,6 +1,17 @@
 const learn = () => {
     return (
         <div class="px-[5%] pb-12 sm:px-[10%] md:px-[20%] lg:px-[25%]">
+            <h1 class="py-4 text-3xl font-bold">Purpose of the Site</h1>
+            <p class="pb-4">
+                The world of disc golf discs can be daunting for newcomers to
+                the sport due to its complexity. The unintuitive flight rating
+                system, plethora of plastics options, and extensive range of
+                discs available create a high barrier to entry. ___ aims to
+                simplify this process by providing a resource for new disc golf
+                enthusiasts to filter out excess information and focus on what's
+                essential when selecting discs for their game.
+            </p>
+
             <h1 class="py-4 text-3xl font-bold">Flight Ratings</h1>
             <div class="xl:flex">
                 <div class="flex items-center">

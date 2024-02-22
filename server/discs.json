@@ -34,17 +34,6 @@
   },
   {
     "manufacturer": "Infinite Discs",
-    "name": "Emperor",
-    "speed": 12,
-    "glide": 5,
-    "turn": -1,
-    "fade": 2.5,
-    "category": "Distance Driver",
-    "description": "Master the courses with the Emperor by Infinite Discs. This commanding distance driver, boasting a moderate overstable nature, stands unrivaled among its counterparts in the market. Experience the sheer power as the Emperor effortlessly glides through the air, outclassing competitors and setting new standards for distance drivers.\n\nIt's the go-to choice for a multitude of Infinite sponsored players, despite having the freedom to select from any brand. Grab an Emperor today and experience its unparalleled performance firsthand.",
-    "image": "infinite-discs-emperor.png"
-  },
-  {
-    "manufacturer": "Infinite Discs",
     "name": "Alpaca",
     "speed": 3,
     "glide": 3,
@@ -53,6 +42,17 @@
     "category": "Putter",
     "description": "The Alpaca is the quintessential beadless putter and is consistently rated as one of the best putt and approach discs in all of disc golf. The Alpaca has a deep, comfortable, traditional, and familiar feel. The Alpaca is the putting putter of choice for nearly all of Infinite's sponsored pros. This goes to show how incredible this putter really is. It is one of the greats inside the circle, and has incredible glide and torque resistance for as far as you can huck it.",
     "image": "infinite-discs-alpaca.png"
+  },
+  {
+    "manufacturer": "Infinite Discs",
+    "name": "Emperor",
+    "speed": 12,
+    "glide": 5,
+    "turn": -1,
+    "fade": 2.5,
+    "category": "Distance Driver",
+    "description": "Master the courses with the Emperor by Infinite Discs. This commanding distance driver, boasting a moderate overstable nature, stands unrivaled among its counterparts in the market. Experience the sheer power as the Emperor effortlessly glides through the air, outclassing competitors and setting new standards for distance drivers.\n\nIt's the go-to choice for a multitude of Infinite sponsored players, despite having the freedom to select from any brand. Grab an Emperor today and experience its unparalleled performance firsthand.",
+    "image": "infinite-discs-emperor.png"
   },
   {
     "manufacturer": "Innova",
@@ -67,14 +67,14 @@
   },
   {
     "manufacturer": "Axiom",
-    "name": "Hex",
-    "speed": 5,
-    "glide": 5,
-    "turn": -1,
-    "fade": 1,
-    "category": "Midrange",
-    "description": "The Hex is a straight flying midrange, designed to fit into anyone's bag. The flight numbers 5/5/-1/-1 are shared by the Buzzz. Axiom takes a classic and gives it the GYRO effect, making a disc that is designed for trusty midrange placement shots without having to worry as much about wind or inconstistent releases. Every MVP/Axiom fan has a Hex in the bag.",
-    "image": "axiom-hex.png"
+    "name": "Envy",
+    "speed": 3,
+    "glide": 3,
+    "turn": 0,
+    "fade": 2,
+    "category": "Putter",
+    "description": "This putter has the reputation of being the disc James Conrad threw in on hole 18 at the 2021 World Championships for the \"holy shot.\" It's widely known as one of the best throwing putters ever made, and works well for putting as well. Brand new, this disc sports some fade at the end of its flight, but will beat in very nicely to fly dead straight. This disc will hold any line and take as much power as you can give it, all while being a masterful approach disc for touch shots. The profile is a little thinner, and as a 3 speed putter, will fly faster and a little further than many other putters.",
+    "image": "axiom-envy.png"
   },
   {
     "manufacturer": "Discraft",
@@ -89,14 +89,14 @@
   },
   {
     "manufacturer": "Axiom",
-    "name": "Envy",
-    "speed": 3,
-    "glide": 3,
-    "turn": 0,
-    "fade": 2,
-    "category": "Putter",
-    "description": "This putter has the reputation of being the disc James Conrad threw in on hole 18 at the 2021 World Championships for the \"holy shot.\" It's widely known as one of the best throwing putters ever made, and works well for putting as well. Brand new, this disc sports some fade at the end of its flight, but will beat in very nicely to fly dead straight. This disc will hold any line and take as much power as you can give it, all while being a masterful approach disc for touch shots. The profile is a little thinner, and as a 3 speed putter, will fly faster and a little further than many other putters.",
-    "image": "axiom-envy.png"
+    "name": "Hex",
+    "speed": 5,
+    "glide": 5,
+    "turn": -1,
+    "fade": 1,
+    "category": "Midrange",
+    "description": "The Hex is a straight flying midrange, designed to fit into anyone's bag. The flight numbers 5/5/-1/-1 are shared by the Buzzz. Axiom takes a classic and gives it the GYRO effect, making a disc that is designed for trusty midrange placement shots without having to worry as much about wind or inconstistent releases. Every MVP/Axiom fan has a Hex in the bag.",
+    "image": "axiom-hex.png"
   },
   {
     "manufacturer": "Infinite Discs",
@@ -110,17 +110,6 @@
     "image": "infinite-discs-tomb.png"
   },
   {
-    "manufacturer": "Innova",
-    "name": "Pig",
-    "speed": 4,
-    "glide": 1,
-    "turn": 0,
-    "fade": 3,
-    "category": "Putter",
-    "description": "This overstable putter has a big thick Thumtrac Rim. The Pig is a slow overstable disc that hardly glides. It's great for hyzer putts and throwing into headwinds. The Innova Pig is available in the soft grippy R-Pro plastic.",
-    "image": "innova-pig.png"
-  },
-  {
     "manufacturer": "Infinite Discs",
     "name": "Pharaoh",
     "speed": 13,
@@ -130,6 +119,17 @@
     "category": "Distance Driver",
     "description": "The Pharaoh stands as the ultimate distance driver, designed for high-speed releases and maximum distance potential. Its manageable fade sets it apart, ensuring that even intermediate players can harness its wonders. When you need to conquer extensive territory off the tee, trust the Pharaoh to deliver. Rule your local disc golf course with the unmatched power of the Pharaoh!",
     "image": "infinite-discs-pharaoh.png"
+  },
+  {
+    "manufacturer": "Innova",
+    "name": "Pig",
+    "speed": 4,
+    "glide": 1,
+    "turn": 0,
+    "fade": 3,
+    "category": "Putter",
+    "description": "This overstable putter has a big thick Thumtrac Rim. The Pig is a slow overstable disc that hardly glides. It's great for hyzer putts and throwing into headwinds. The Innova Pig is available in the soft grippy R-Pro plastic.",
+    "image": "innova-pig.png"
   },
   {
     "manufacturer": "Infinite Discs",
@@ -165,6 +165,17 @@
     "image": "kastaplast-berg.png"
   },
   {
+    "manufacturer": "Gateway",
+    "name": "Wizard",
+    "speed": 2,
+    "glide": 3,
+    "turn": 0,
+    "fade": 2,
+    "category": "Putter",
+    "description": "The Gateway Wizard is one of the most popular putters for many years. It is available in nearly a dozen different plastic blends. This beaded putt and approach disc is a staple for thousands of avid disc golfers. The Wizard is a popular choice for short drives, approach shots, long putts, and short putts. This overstable disc has an outstanding feel and provides the positive results you'll want to take your game to the next level.",
+    "image": "gateway-wizard.png"
+  },
+  {
     "manufacturer": "Innova",
     "name": "Mamba",
     "speed": 11,
@@ -176,15 +187,15 @@
     "image": "innova-mamba.png"
   },
   {
-    "manufacturer": "Gateway",
-    "name": "Wizard",
-    "speed": 2,
-    "glide": 3,
-    "turn": 0,
-    "fade": 2,
-    "category": "Putter",
-    "description": "The Gateway Wizard is one of the most popular putters for many years. It is available in nearly a dozen different plastic blends. This beaded putt and approach disc is a staple for thousands of avid disc golfers. The Wizard is a popular choice for short drives, approach shots, long putts, and short putts. This overstable disc has an outstanding feel and provides the positive results you'll want to take your game to the next level.",
-    "image": "gateway-wizard.png"
+    "manufacturer": "Infinite Discs",
+    "name": "Sphinx",
+    "speed": 9,
+    "glide": 6,
+    "turn": -3,
+    "fade": 1,
+    "category": "Distance Driver",
+    "description": "The Sphinx is the ideal disc for newcomers seeking a crossover between a distance and control driver—striking the balance of extended distance without fading prematurely. With its understable release and a manageable speed rating, the Sphinx effortlessly glides with ease, making it perfect for players honing in their accuracy.\n\nFor seasoned players, the Sphinx transforms into a valuable, understable utility disc, excelling in hyzer-flips, long anhyzer throws, and powerful rollers. Its versatility ensures its enduring presence in any disc golf bag, proving itself as a reliable and timeless addition for players of all levels. The Sphinx is not just a disc; it's a constant companion that stands the test of time on the course.",
+    "image": "infinite-discs-sphinx.png"
   },
   {
     "manufacturer": "Infinite Discs",
@@ -198,6 +209,17 @@
     "image": "infinite-discs-centurion.png"
   },
   {
+    "manufacturer": "Innova",
+    "name": "Rollo",
+    "speed": 5,
+    "glide": 6,
+    "turn": -4,
+    "fade": 1,
+    "category": "Midrange",
+    "description": "\"This is a disc that just about anybody can roll,\" says Dave Dunipace, founder of Innova. The Rollo was made for rolling, but it can also be useful for turnover shots through tight wooded fairways. This disc will be a true beginner's disc, very resistant to fading out to the left for a right-handed backhand throw. It has a ton of turn and plenty of glide. The unique understable flight of the Rollo has made it a fan favorite for unique shot shapes and varieties.",
+    "image": "innova-rollo.png"
+  },
+  {
     "manufacturer": "Infinite Discs",
     "name": "Aztec",
     "speed": 10,
@@ -207,17 +229,6 @@
     "category": "Distance Driver",
     "description": "The Aztec, classified as a speed 10 driver, exhibits a straight flight path with a subtle fade towards the end. Despite its speed rating, the Aztec surprises most players with remarkable distance and accuracy, proving itself as a valuable asset to any game.\n\nUnlike high-speed distance drivers, the Aztec boasts a more slender rim, enhancing comfort for the majority of disc golfers. Widely recognized as a lengthier yet comparable flying disc to the Exodus or Dynasty, the Aztec promises a blend of performance and familiarity for players seeking reliable distance shots.",
     "image": "infinite-discs-aztec.png"
-  },
-  {
-    "manufacturer": "Infinite Discs",
-    "name": "Sphinx",
-    "speed": 9,
-    "glide": 6,
-    "turn": -3,
-    "fade": 1,
-    "category": "Distance Driver",
-    "description": "The Sphinx is the ideal disc for newcomers seeking a crossover between a distance and control driver—striking the balance of extended distance without fading prematurely. With its understable release and a manageable speed rating, the Sphinx effortlessly glides with ease, making it perfect for players honing in their accuracy.\n\nFor seasoned players, the Sphinx transforms into a valuable, understable utility disc, excelling in hyzer-flips, long anhyzer throws, and powerful rollers. Its versatility ensures its enduring presence in any disc golf bag, proving itself as a reliable and timeless addition for players of all levels. The Sphinx is not just a disc; it's a constant companion that stands the test of time on the course.",
-    "image": "infinite-discs-sphinx.png"
   },
   {
     "manufacturer": "Axiom",
@@ -253,6 +264,17 @@
     "image": "innova-firebird.png"
   },
   {
+    "manufacturer": "Innova",
+    "name": "Aviar",
+    "speed": 2,
+    "glide": 3,
+    "turn": 0,
+    "fade": 1,
+    "category": "Putter",
+    "description": "The Aviar is a very popular straight flyer with a touch of fade at the end. This disc is one of the most popular putting discs that always seems to find the chains.",
+    "image": "innova-aviar.png"
+  },
+  {
     "manufacturer": "Latitude 64",
     "name": "Pure",
     "speed": 3,
@@ -273,17 +295,6 @@
     "category": "Midrange",
     "description": "The Mako3 is the newest version of the remarkably straight flying Innova Mako. This midrange disc is the perfect solution for anyone who wants a straight flyer with very limited fade. The Mako3 is available in the Jolly Launcher Champion plastic, and is slightly faster than the original Mako.",
     "image": "innova-mako3.png"
-  },
-  {
-    "manufacturer": "Innova",
-    "name": "Aviar",
-    "speed": 2,
-    "glide": 3,
-    "turn": 0,
-    "fade": 1,
-    "category": "Putter",
-    "description": "The Aviar is a very popular straight flyer with a touch of fade at the end. This disc is one of the most popular putting discs that always seems to find the chains.",
-    "image": "innova-aviar.png"
   },
   {
     "manufacturer": "Dynamic Discs",
@@ -308,15 +319,26 @@
     "image": "innova-teebird.png"
   },
   {
-    "manufacturer": "Axiom",
-    "name": "Crave",
-    "speed": 6.5,
-    "glide": 5,
-    "turn": -1,
-    "fade": 1,
+    "manufacturer": "Infinite Discs",
+    "name": "Roman",
+    "speed": 10,
+    "glide": 4,
+    "turn": 0,
+    "fade": 3,
     "category": "Fairway Driver",
-    "description": "The Crave is the first driver in the Axiom Line. This moderate speed fairway driver is described as a seasoned MVP Servo. The Crave is one of the straightest flying fairway drivers in the market. It totes a slower speed, but don't let it fool you, as it goes far. It provides a torque resistant, but straight flight suitable for backhands or forehands. Most MVP made discs are relatively flat, and the Crave is no exception.",
-    "image": "axiom-crave.png"
+    "description": "The Infinite Discs Roman is a power driver, designed to provide unrivaled control and a dependable trajectory in all weather conditions. It's designed for experienced players, but even beginners can benefit from its dependable overstable flight for windy conditions and flex shots. With the ability to enhance accuracy on both backhand and forehand throws, the Roman is an exceptional choice for any player looking for consistent reliability. The Roman pairs nicely as a more overstable companion to the Dynasty, or a glidier companion to the Scepter.",
+    "image": "infinite-discs-roman.png"
+  },
+  {
+    "manufacturer": "Axiom",
+    "name": "Pixel",
+    "speed": 2,
+    "glide": 4,
+    "turn": 0,
+    "fade": 0.5,
+    "category": "Putter",
+    "description": "Introducing the Axiom Pixel, the second release in the Simon Line series. This advanced putter, featuring flight numbers 2 | 4 | 0 | 0.5, is ideal for players seeking a blend of stability and versatility. The Pixel's design includes a deep profile and a subtle micro bead, ensuring a comfortable and full grip. Suitable for both driving and putting, it offers a straight and stable flight path, maintaining any line with minimal fade. Despite its low speed rating, the Pixel is capable of impressive distances, especially in varied wind conditions. On the putting green, whether in Circle 1 or Circle 2, its optimal glide effortlessly carries it into the chains. \n\nTake your game to the next level with the putter of choice for 7x Disc Golf Pro Tour winner Simon Lizotte!",
+    "image": "axiom-pixel.png"
   },
   {
     "manufacturer": "Latitude 64",
@@ -330,15 +352,15 @@
     "image": "latitude-64-river.png"
   },
   {
-    "manufacturer": "Innova",
-    "name": "Rollo",
-    "speed": 5,
-    "glide": 6,
-    "turn": -4,
+    "manufacturer": "Axiom",
+    "name": "Crave",
+    "speed": 6.5,
+    "glide": 5,
+    "turn": -1,
     "fade": 1,
-    "category": "Midrange",
-    "description": "\"This is a disc that just about anybody can roll,\" says Dave Dunipace, founder of Innova. The Rollo was made for rolling, but it can also be useful for turnover shots through tight wooded fairways. This disc will be a true beginner's disc, very resistant to fading out to the left for a right-handed backhand throw. It has a ton of turn and plenty of glide. The unique understable flight of the Rollo has made it a fan favorite for unique shot shapes and varieties.",
-    "image": "innova-rollo.png"
+    "category": "Fairway Driver",
+    "description": "The Crave is the first driver in the Axiom Line. This moderate speed fairway driver is described as a seasoned MVP Servo. The Crave is one of the straightest flying fairway drivers in the market. It totes a slower speed, but don't let it fool you, as it goes far. It provides a torque resistant, but straight flight suitable for backhands or forehands. Most MVP made discs are relatively flat, and the Crave is no exception.",
+    "image": "axiom-crave.png"
   },
   {
     "manufacturer": "Innova",
@@ -363,26 +385,15 @@
     "image": "mvp-watt.png"
   },
   {
-    "manufacturer": "Infinite Discs",
-    "name": "Roman",
-    "speed": 10,
-    "glide": 4,
-    "turn": 0,
-    "fade": 3,
-    "category": "Fairway Driver",
-    "description": "The Infinite Discs Roman is a power driver, designed to provide unrivaled control and a dependable trajectory in all weather conditions. It's designed for experienced players, but even beginners can benefit from its dependable overstable flight for windy conditions and flex shots. With the ability to enhance accuracy on both backhand and forehand throws, the Roman is an exceptional choice for any player looking for consistent reliability. The Roman pairs nicely as a more overstable companion to the Dynasty, or a glidier companion to the Scepter.",
-    "image": "infinite-discs-roman.png"
-  },
-  {
-    "manufacturer": "Infinite Discs",
-    "name": "Anubis",
-    "speed": 5,
-    "glide": 5,
-    "turn": 0,
-    "fade": 0,
-    "category": "Midrange",
-    "description": "The Anubis is a straight-flying, all-purpose, precision mid-range disc that will fit into the bags of both novice and professional players. Every player can count on the Anubis to hold the line whether thrown for shorter approaches or for longer distances off the tee. The Anubis will help players to fine-tune their throwing skills by flying precisely in accordance with the release from the hand.",
-    "image": "infinite-discs-anubis.png"
+    "manufacturer": "Innova",
+    "name": "Tern",
+    "speed": 12,
+    "glide": 6,
+    "turn": -2,
+    "fade": 2,
+    "category": "Distance Driver",
+    "description": "The Tern is an understable high speed driver. Being understable, this is a comfortable disc that provides max distance for intermediate players. While the Tern’s rim is very wide (2.3 cm) it isn’t at max width like the Dominator, Vulcan, or Katana. The Innova Tern was approved by the PDGA on December 3, 2012. Innova states that the flight rating of this disc in Star and Champion plastic slightly differ. The flight rating for Champion Plastic is 12/6/-2/2. The Champion plastic that the Tern is manufactured in is super clear and looks really sharp.",
+    "image": "innova-tern.png"
   },
   {
     "manufacturer": "Innova",
@@ -407,26 +418,15 @@
     "image": "innova-beast.png"
   },
   {
-    "manufacturer": "Innova",
-    "name": "Tern",
-    "speed": 12,
-    "glide": 6,
-    "turn": -2,
-    "fade": 2,
-    "category": "Distance Driver",
-    "description": "The Tern is an understable high speed driver. Being understable, this is a comfortable disc that provides max distance for intermediate players. While the Tern’s rim is very wide (2.3 cm) it isn’t at max width like the Dominator, Vulcan, or Katana. The Innova Tern was approved by the PDGA on December 3, 2012. Innova states that the flight rating of this disc in Star and Champion plastic slightly differ. The flight rating for Champion Plastic is 12/6/-2/2. The Champion plastic that the Tern is manufactured in is super clear and looks really sharp.",
-    "image": "innova-tern.png"
-  },
-  {
-    "manufacturer": "Latitude 64",
-    "name": "Diamond",
-    "speed": 8,
-    "glide": 6,
-    "turn": -3,
-    "fade": 1,
-    "category": "Fairway Driver",
-    "description": "The Latitude 64 Diamond just might be the BEST disc golf driver for beginners. This disc has just the right speed, turn, and glide to maximize distance for weaker throwers. It’s also available in very light weights, which helps newer disc golfers overcome limited distance from low speed fade. Not only is the Diamond a great disc for beginners, but it comes in the very durable Opto Line plastic. This disc will endure punishment and maintain its flight characteristics for years. If you’re new to disc golf and want to excel, buy the Diamond today! Many disc golfers use their Diamond for more than approach or fairway drives, but also for the their drives straight off the tee. That is because the rim size allows for a perfect grip to throw it with power.",
-    "image": "latitude-64-diamond.png"
+    "manufacturer": "Infinite Discs",
+    "name": "Anubis",
+    "speed": 5,
+    "glide": 5,
+    "turn": 0,
+    "fade": 0,
+    "category": "Midrange",
+    "description": "The Anubis is a straight-flying, all-purpose, precision mid-range disc that will fit into the bags of both novice and professional players. Every player can count on the Anubis to hold the line whether thrown for shorter approaches or for longer distances off the tee. The Anubis will help players to fine-tune their throwing skills by flying precisely in accordance with the release from the hand.",
+    "image": "infinite-discs-anubis.png"
   },
   {
     "manufacturer": "Axiom",
@@ -440,6 +440,28 @@
     "image": "axiom-insanity.png"
   },
   {
+    "manufacturer": "Axiom",
+    "name": "Time-Lapse",
+    "speed": 12,
+    "glide": 5,
+    "turn": -1,
+    "fade": 3,
+    "category": "Distance Driver",
+    "description": "The Simon Line is here! The debut of this much-anticipated line of discs from Simon Lizotte, the Time-Lapse, is a 12 speed distance driver, the first 12 speed driver ever to feature GYRO technology. Simon designed this disc along with MVP to make the ultimate distance driver: Perfect amounts of glide, turn, and fade to make this an absolute bomber with ultimate control and predictability.",
+    "image": "axiom-time-lapse.png"
+  },
+  {
+    "manufacturer": "Latitude 64",
+    "name": "Diamond",
+    "speed": 8,
+    "glide": 6,
+    "turn": -3,
+    "fade": 1,
+    "category": "Fairway Driver",
+    "description": "The Latitude 64 Diamond just might be the BEST disc golf driver for beginners. This disc has just the right speed, turn, and glide to maximize distance for weaker throwers. It’s also available in very light weights, which helps newer disc golfers overcome limited distance from low speed fade. Not only is the Diamond a great disc for beginners, but it comes in the very durable Opto Line plastic. This disc will endure punishment and maintain its flight characteristics for years. If you’re new to disc golf and want to excel, buy the Diamond today! Many disc golfers use their Diamond for more than approach or fairway drives, but also for the their drives straight off the tee. That is because the rim size allows for a perfect grip to throw it with power.",
+    "image": "latitude-64-diamond.png"
+  },
+  {
     "manufacturer": "Thought Space Athletics",
     "name": "Mantra",
     "speed": 9,
@@ -449,50 +471,6 @@
     "category": "Fairway Driver",
     "description": "The Mantra is the debut disc release from Thought Space Athletics, a company focused on beautiful, unique designs and quality disc golf products for all players. The Mantra will fly straight at a manageable speed for new players but will have a more understable flight for experience throwers. It can be used for precision drivers or for anhyzer lines and power rollers. It's an all-purpose driver with great glide that feels and flies wonderfully.",
     "image": "thought-space-athletics-mantra.png"
-  },
-  {
-    "manufacturer": "Innova",
-    "name": "Thunderbird",
-    "speed": 9,
-    "glide": 5,
-    "turn": 0,
-    "fade": 2,
-    "category": "Distance Driver",
-    "description": "The Innova Thunderbird is said to be predictable in the wind, but not so overstable that it's hard to keep straight. If you’re looking for a consistent driving disc that is slightly faster than the TeeBird3, the Thunderbird is for you. This likely won’t be the fastest or furthest flying driver in your bag, but when it comes to a workhorse driver with the right blend of speed and reliability, the Thunderbird exceeds expectations.\n\nInnova says this of the Thunderbird: \"The Thunderbird comes from strong bloodlines. The stability of a TeeBird with the speed of a Valkyrie; it could be best described as a seasoned Firebird, but with less fade. The Thunderbird is still predictable in the wind and a great choice for your new favorite long-range placement driver.\"",
-    "image": "innova-thunderbird.png"
-  },
-  {
-    "manufacturer": "Thought Space Athletics",
-    "name": "Votum",
-    "speed": 7,
-    "glide": 5,
-    "turn": 0,
-    "fade": 3,
-    "category": "Fairway Driver",
-    "description": "The Votum is a great fairway / distance driver crossover disc at a speed that anybody can handle. It is designed to be a go-to driver for shots that don't need excessive fade and will become workhorse in the bag for players desiring reliable distance and placement on the fairway.",
-    "image": "thought-space-athletics-votum.png"
-  },
-  {
-    "manufacturer": "Innova",
-    "name": "Shryke",
-    "speed": 13,
-    "glide": 6,
-    "turn": -2,
-    "fade": 2,
-    "category": "Distance Driver",
-    "description": "The Shryke is an easy-to-throw, distance driver that works wonderfully for a wide variety of players. A mild high-speed turn will put the Shryke in glide mode, which along with its high, aerodynamic speed, will give it incredible distance. The low-speed fade is mild and manageable, which makes it easy to keep on the fairway. The Shryke is similar to the popular Tern, but faster and more stable for higher speeds.",
-    "image": "innova-shryke.png"
-  },
-  {
-    "manufacturer": "Prodigy",
-    "name": "PA-3",
-    "speed": 3,
-    "glide": 3,
-    "turn": 0,
-    "fade": 1,
-    "category": "Putter",
-    "description": "The fourth putter in the Prodigy line is described as “the straightest flying” prodigy putter. The PA3 is a beaded putter, meaning there is a small bump around the edge of the bottom rim. Many disc golfers find putters with beaded rims to provide a more comfortable grip.",
-    "image": "prodigy-pa-3.png"
   },
   {
     "manufacturer": "Discraft",
@@ -506,15 +484,48 @@
     "image": "discraft-luna.png"
   },
   {
-    "manufacturer": "Discraft",
-    "name": "Zone OS",
-    "speed": 4,
-    "glide": 2,
-    "turn": 1,
-    "fade": 5,
+    "manufacturer": "Innova",
+    "name": "Thunderbird",
+    "speed": 9,
+    "glide": 5,
+    "turn": 0,
+    "fade": 2,
+    "category": "Distance Driver",
+    "description": "The Innova Thunderbird is said to be predictable in the wind, but not so overstable that it's hard to keep straight. If you’re looking for a consistent driving disc that is slightly faster than the TeeBird3, the Thunderbird is for you. This likely won’t be the fastest or furthest flying driver in your bag, but when it comes to a workhorse driver with the right blend of speed and reliability, the Thunderbird exceeds expectations.\n\nInnova says this of the Thunderbird: \"The Thunderbird comes from strong bloodlines. The stability of a TeeBird with the speed of a Valkyrie; it could be best described as a seasoned Firebird, but with less fade. The Thunderbird is still predictable in the wind and a great choice for your new favorite long-range placement driver.\"",
+    "image": "innova-thunderbird.png"
+  },
+  {
+    "manufacturer": "Prodigy",
+    "name": "PA-3",
+    "speed": 3,
+    "glide": 3,
+    "turn": 0,
+    "fade": 1,
     "category": "Putter",
-    "description": "The highly anticipated First Run Zone OS from Discraft Inc. has arrived - the ultimate utility disc for all disc golfers' on-course needs! This overstable disc has been in high demand for years and is finally available to take players' games to the next level.\n\nThe Zone OS has earned its stripes as a PDGA certified beefcake, thanks to its impressive torque resistance and assertive fade. Whether a player needs a disc for forehand throws, spike hyzers, or approach shots, the Zone OS can handle it all, even in the toughest of winds and terrain. Its overstable flight makes it perfect for players who demand reliability and consistency from their disc golf equipment. With the Zone OS in their bag, players can take on any challenge with confidence and precision. Try the Zone OS today and take your game to the next level with this versatile and dependable utility disc.",
-    "image": "discraft-zone-os.png"
+    "description": "The fourth putter in the Prodigy line is described as “the straightest flying” prodigy putter. The PA3 is a beaded putter, meaning there is a small bump around the edge of the bottom rim. Many disc golfers find putters with beaded rims to provide a more comfortable grip.",
+    "image": "prodigy-pa-3.png"
+  },
+  {
+    "manufacturer": "Innova",
+    "name": "Shryke",
+    "speed": 13,
+    "glide": 6,
+    "turn": -2,
+    "fade": 2,
+    "category": "Distance Driver",
+    "description": "The Shryke is an easy-to-throw, distance driver that works wonderfully for a wide variety of players. A mild high-speed turn will put the Shryke in glide mode, which along with its high, aerodynamic speed, will give it incredible distance. The low-speed fade is mild and manageable, which makes it easy to keep on the fairway. The Shryke is similar to the popular Tern, but faster and more stable for higher speeds.",
+    "image": "innova-shryke.png"
+  },
+  {
+    "manufacturer": "Thought Space Athletics",
+    "name": "Votum",
+    "speed": 7,
+    "glide": 5,
+    "turn": 0,
+    "fade": 3,
+    "category": "Fairway Driver",
+    "description": "The Votum is a great fairway / distance driver crossover disc at a speed that anybody can handle. It is designed to be a go-to driver for shots that don't need excessive fade and will become workhorse in the bag for players desiring reliable distance and placement on the fairway.",
+    "image": "thought-space-athletics-votum.png"
   },
   {
     "manufacturer": "Innova",
@@ -537,16 +548,5 @@
     "category": "Distance Driver",
     "description": "The Clash Discs Wild Honey is a stable to understable distance driver. It was designed to be a fast driver that can be more easily thrown. It provides a very comfortable grip, control, and a beautiful long S-Curve flight.",
     "image": "clash-discs-wild-honey.png"
-  },
-  {
-    "manufacturer": "Axiom",
-    "name": "Time-Lapse",
-    "speed": 12,
-    "glide": 5,
-    "turn": -1,
-    "fade": 3,
-    "category": "Distance Driver",
-    "description": "The Simon Line is here! The debut of this much-anticipated line of discs from Simon Lizotte, the Time-Lapse, is a 12 speed distance driver, the first 12 speed driver ever to feature GYRO technology. Simon designed this disc along with MVP to make the ultimate distance driver: Perfect amounts of glide, turn, and fade to make this an absolute bomber with ultimate control and predictability.",
-    "image": "axiom-time-lapse.png"
   }
 ]

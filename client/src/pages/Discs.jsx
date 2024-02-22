@@ -229,7 +229,7 @@ const Discs = () => {
                     <div class="sticky top-10">
                         <Select onChange={handleSortOrderChange} />
                     </div>
-                    {/* // 2 sections for [sidebar | grid]. 2 columns and 10 columns respectively */}
+                    {/* // 2 sections for [sidebar | grid]. 3 columns and 9 columns respectively */}
                     <div class="grid grid-cols-12 px-2 pb-4 lg:px-8">
                         <div class="sticky top-12 col-span-3 mr-4 hidden h-[91vh] overflow-auto text-text md:block">
                             <div>
@@ -379,9 +379,26 @@ const Discs = () => {
                             </div>
                         </div>
 
+                        {/* Disc Display */}
                         <div class="col-span-12 grid grid-cols-2 items-center gap-4 md:col-span-9 lg:grid-cols-3 xl:grid-cols-4">
                             {displayedDiscs}
                         </div>
+                    </div>
+
+                    <div class="mb-4 text-center">
+                        <p class="text-md text-gray-400">
+                            Disc data gathered from:{' '}
+                            <a
+                                class="text-primary"
+                                href="https://infinitediscs.com/top-selling/discs-of-all-time"
+                                target="_blank"
+                            >
+                                Infinite Discs
+                            </a>
+                        </p>
+                        <p class="text-md  text-gray-400">
+                            Last Updated: 2/21/2024
+                        </p>
                     </div>
                 </div>
             )}

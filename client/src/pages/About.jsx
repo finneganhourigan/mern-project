@@ -48,18 +48,6 @@ const About = () => {
                     </a>
                 </div>
 
-                <h1 class="py-4 text-3xl font-bold">Purpose of the Site</h1>
-                <p class="pb-4">
-                    The world of disc golf discs can be daunting for newcomers
-                    to the sport due to its complexity. The unintuitive flight
-                    rating system, plethora of plastics options, and extensive
-                    range of discs available create a high barrier to entry. ___
-                    aims to simplify this process by providing a resource for
-                    new disc golf enthusiasts to filter out excess information
-                    and focus on what's essential when selecting discs for their
-                    game.
-                </p>
-
                 <h1 class="py-4 text-3xl font-bold">Technologies Used:</h1>
                 <p class="pb-4">
                     While this project is relatively small, I opted to utilize a
@@ -72,7 +60,7 @@ const About = () => {
                 <h1 class="py-4 text-3xl font-bold">
                     Core Technologies: The MERN Stack
                 </h1>
-                <div class="custom-about-page:grid-cols-8 grid grid-cols-4 gap-4 pb-4 sm:grid-cols-4">
+                <div class="grid grid-cols-4 gap-4 pb-4 sm:grid-cols-4 custom-about-page:grid-cols-8">
                     <TechCard
                         title="MongoDB"
                         image="/assets/techImages/MongoDB.svg"
@@ -102,7 +90,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div class="custom-about-page:px-[25%] px-[5%] pb-12 sm:px-[10%] md:px-[17%]">
+            <div class="px-[5%] pb-12 sm:px-[10%] md:px-[17%] custom-about-page:px-[25%]">
                 <h1 class="py-4 text-3xl font-bold">Secondary Technologies:</h1>
                 <div class="grid grid-cols-4 gap-4 pb-4 sm:grid-cols-4 lg:grid-cols-6">
                     <TechCard
