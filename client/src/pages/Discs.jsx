@@ -205,7 +205,7 @@ const Discs = () => {
 
         if (filteredDiscs.length === 0) {
             setDisplayedDiscs(
-                <h2 class="col-span-12 mx-auto my-8 flex h-full w-[80%] items-center justify-center bg-primary text-center text-3xl md:w-[70%]">
+                <h2 class="col-span-12 mx-auto my-8 flex h-full w-[80%] items-center justify-center text-center text-3xl md:w-[70%]">
                     No discs found. Please adjust your filters and try again.
                 </h2>,
             );
