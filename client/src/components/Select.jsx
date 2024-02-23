@@ -4,9 +4,12 @@ const Select = ({ onChange }) => {
     };
 
     return (
-        <div class="flex items-center justify-end bg-background py-2">
-            <h1>Sort by:</h1>
-            <select class="mx-2 bg-background" onChange={handleChange}>
+        <div class="flex items-center justify-end py-2">
+            <h1>Sort Order:</h1>
+            <select
+                class="ml-2 rounded-md border-2 border-text bg-background px-2 py-1"
+                onChange={handleChange}
+            >
                 <option value="Top Selling">Top Selling</option>
                 <option value="Name">Name</option>
             </select>

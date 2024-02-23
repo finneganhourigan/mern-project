@@ -16,6 +16,8 @@ const Discs = () => {
     const [turn, setTurn] = useState('*');
     const [fade, setFade] = useState('*');
 
+    //filter state variables
+    const [drawerIsOpen, setDrawerIsOpen] = useState(false);
     const [categoryFilter, setCategoryFilter] = useState([]);
     const [brandFilter, setBrandFilter] = useState([]);
     const [checkboxStates, setCheckboxStates] = useState(Array(16).fill(false)); //indices 0-3 are categories, rest brands
@@ -84,7 +86,9 @@ const Discs = () => {
 
     //automatically update displayedDiscs when user selects filters
     useEffect(() => {
-        applyFilters();
+        if (!drawerIsOpen) {
+            applyFilters();
+        }
     }, [sortOrder, categoryFilter, brandFilter, speed, glide, turn, fade]);
 
     const handleSpeedChange = (event) => {
@@ -201,10 +205,14 @@ const Discs = () => {
 
         if (filteredDiscs.length === 0) {
             setDisplayedDiscs(
-                <h2 class="absolute flex h-screen w-[70%] items-center justify-center text-3xl">
+                <h2 class="col-span-12 mx-auto my-8 flex h-full w-[80%] items-center justify-center bg-primary text-center text-3xl md:w-[70%]">
                     No discs found. Please adjust your filters and try again.
                 </h2>,
             );
+        }
+
+        if (drawerIsOpen) {
+            toggleDrawer();
         }
     };
 
@@ -218,6 +226,10 @@ const Discs = () => {
         // setCheckboxStates(Array(16).fill(false));
     };
 
+    const toggleDrawer = () => {
+        setDrawerIsOpen(!drawerIsOpen);
+    };
+
     return (
         <div>
             {isLoading ? (
@@ -226,21 +238,220 @@ const Discs = () => {
                 </h2>
             ) : (
                 <div>
-                    <div class="sticky top-10 mx-8 flex justify-between">
-                        {/* Sidebar toggle for small screens */}
-                        <div class="md:hidden">
-                            <p>test</p>
+                    <div class="sticky top-10 flex w-full justify-between bg-background px-2 py-2 sm:px-8">
+                        <div class="flex md:hidden">
+                            {/* Filter drawer toggle (for small screens) */}
+                            <div class="flex items-center">
+                                <button
+                                    onClick={toggleDrawer}
+                                    class="rounded-md bg-primary px-2 py-1 hover:bg-red-900"
+                                >
+                                    Show/Hide Filters
+                                </button>
+                            </div>
+
+                            {/* Filter Drawer */}
+                            <div>
+                                {/* Drawer Animation */}
+                                <div
+                                    class={`fixed inset-y-0 left-0 top-10 z-10 w-[100%] transform overflow-auto bg-[#202020] text-white transition-transform duration-300 ${
+                                        drawerIsOpen
+                                            ? 'translate-x-0'
+                                            : '-translate-x-full'
+                                    }`}
+                                >
+                                    {/* Drawer Content */}
+                                    <div class="mx-8 my-4">
+                                        {/* Close Drawer */}
+                                        <div>
+                                            <button
+                                                onClick={toggleDrawer}
+                                                class="my-2 rounded-md bg-primary px-2 py-1 hover:bg-red-900"
+                                            >
+                                                Show/Hide Filters
+                                            </button>
+                                        </div>
+
+                                        {/* Flight Filters */}
+                                        <div>
+                                            <h1 class="text-lg font-bold">
+                                                Flight
+                                            </h1>
+                                            <h2>Speed:</h2>
+                                            <Slider
+                                                min={1}
+                                                max={13}
+                                                onChange={handleSpeedChange}
+                                                val={speed}
+                                            />
+                                            <h2>Glide:</h2>
+                                            <Slider
+                                                min={1}
+                                                max={7}
+                                                onChange={handleGlideChange}
+                                                val={glide}
+                                            />
+                                            <h2>Turn:</h2>
+                                            <Slider
+                                                min={-5}
+                                                max={1}
+                                                onChange={handleTurnChange}
+                                                val={turn}
+                                            />
+                                            <h2>Fade:</h2>
+                                            <Slider
+                                                min={0}
+                                                max={5}
+                                                onChange={handleFadeChange}
+                                                val={fade}
+                                            />
+
+                                            <div class="my-1 flex justify-end">
+                                                <button
+                                                    class="rounded-md bg-slate-700 px-2 py-1 hover:bg-slate-800"
+                                                    onClick={() => {
+                                                        resetFilters();
+                                                    }}
+                                                >
+                                                    Reset Flight Filters
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        {/* Category Filters */}
+                                        <div>
+                                            <h1 class="text-lg font-bold">
+                                                Category
+                                            </h1>
+                                            <Checkbox
+                                                label="Distance Driver"
+                                                onChange={handleCategoryChange}
+                                                checkboxStatesIndex={0}
+                                                checked={checkboxStates[0]}
+                                            />
+                                            <Checkbox
+                                                label="Fairway Driver"
+                                                onChange={handleCategoryChange}
+                                                checkboxStatesIndex={1}
+                                                checked={checkboxStates[1]}
+                                            />
+                                            <Checkbox
+                                                label="Midrange"
+                                                onChange={handleCategoryChange}
+                                                checkboxStatesIndex={2}
+                                                checked={checkboxStates[2]}
+                                            />
+                                            <Checkbox
+                                                label="Putter"
+                                                onChange={handleCategoryChange}
+                                                checkboxStatesIndex={3}
+                                                checked={checkboxStates[3]}
+                                            />
+                                        </div>
+
+                                        {/* Brand Filters */}
+                                        <div>
+                                            <h1 class="text-lg font-bold">
+                                                Brand
+                                            </h1>
+                                            <Checkbox
+                                                label="Axiom"
+                                                onChange={handleBrandChange}
+                                                checkboxStatesIndex={4}
+                                                checked={checkboxStates[4]}
+                                            />
+                                            <Checkbox
+                                                label="Clash Discs"
+                                                onChange={handleBrandChange}
+                                                checkboxStatesIndex={5}
+                                                checked={checkboxStates[5]}
+                                            />
+                                            <Checkbox
+                                                label="Discraft"
+                                                onChange={handleBrandChange}
+                                                checkboxStatesIndex={6}
+                                                checked={checkboxStates[6]}
+                                            />
+                                            <Checkbox
+                                                label="Dynamic Discs"
+                                                onChange={handleBrandChange}
+                                                checkboxStatesIndex={7}
+                                                checked={checkboxStates[7]}
+                                            />
+                                            <Checkbox
+                                                label="Gateway"
+                                                onChange={handleBrandChange}
+                                                checkboxStatesIndex={8}
+                                                checked={checkboxStates[8]}
+                                            />
+                                            <Checkbox
+                                                label="Infinite Discs"
+                                                onChange={handleBrandChange}
+                                                checkboxStatesIndex={9}
+                                                checked={checkboxStates[9]}
+                                            />
+                                            <Checkbox
+                                                label="Innova"
+                                                onChange={handleBrandChange}
+                                                checkboxStatesIndex={10}
+                                                checked={checkboxStates[10]}
+                                            />
+                                            <Checkbox
+                                                label="Kastaplast"
+                                                onChange={handleBrandChange}
+                                                checkboxStatesIndex={11}
+                                                checked={checkboxStates[11]}
+                                            />
+                                            <Checkbox
+                                                label="Latitude 64"
+                                                onChange={handleBrandChange}
+                                                checkboxStatesIndex={12}
+                                                checked={checkboxStates[12]}
+                                            />
+                                            <Checkbox
+                                                label="MVP"
+                                                onChange={handleBrandChange}
+                                                checkboxStatesIndex={13}
+                                                checked={checkboxStates[13]}
+                                            />
+                                            <Checkbox
+                                                label="Prodigy"
+                                                onChange={handleBrandChange}
+                                                checkboxStatesIndex={14}
+                                                checked={checkboxStates[14]}
+                                            />
+                                            <Checkbox
+                                                label="Thought Space Athletics"
+                                                onChange={handleBrandChange}
+                                                checkboxStatesIndex={15}
+                                                checked={checkboxStates[15]}
+                                            />
+                                        </div>
+
+                                        {/* Apply Filters */}
+                                        <div class="my-1 flex justify-end">
+                                            <button
+                                                onClick={applyFilters}
+                                                class="rounded-md bg-primary px-2 py-1 hover:bg-red-900"
+                                            >
+                                                Apply Filters
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                         {/* Sort Order Selection */}
-                        <div class="w-full justify-end">
+                        <div class="justify-end md:w-full">
                             <Select onChange={handleSortOrderChange} />
                         </div>
                     </div>
+
                     {/* // 2 sections for [sidebar | grid]. 3 columns and 9 columns respectively */}
                     <div class="grid grid-cols-12 px-2 pb-4 lg:px-8">
-                        {/* Sidebar for larger screens*/}
-                        <div class="sticky top-12 col-span-3 mr-4 hidden h-[85vh] overflow-auto text-text md:block">
+                        {/* Sidebar (for larger screens)*/}
+                        <div class="sticky top-12 col-span-3 mr-4 hidden h-[85vh] overflow-auto md:block">
                             <div>
                                 <h1 class="text-lg font-bold">Flight</h1>
                                 <h2>Speed:</h2>
@@ -389,11 +600,12 @@ const Discs = () => {
                         </div>
 
                         {/* Disc Display */}
-                        <div class="col-span-12 grid grid-cols-2 items-center gap-4 md:col-span-9 lg:grid-cols-3 xl:grid-cols-4">
+                        <div class="col-span-12 grid grid-cols-2 items-center gap-4 md:col-span-9 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
                             {displayedDiscs}
                         </div>
                     </div>
 
+                    {/* Footer */}
                     <div class="mb-4 text-center">
                         <p class="text-md text-gray-400">
                             Disc data gathered from:{' '}
