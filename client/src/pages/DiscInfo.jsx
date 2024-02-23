@@ -6,6 +6,7 @@ const DiscInfo = () => {
     const { id } = useParams();
 
     useEffect(() => {
+        window.scrollTo(0, 0);
         fetch(`https://disc-golf-app-backend.onrender.com/api/discs/${id}`) // http://localhost:4000/api/discs/
             .then((response) => response.json())
             .then((data) => {
@@ -14,7 +15,7 @@ const DiscInfo = () => {
     }, []);
 
     return (
-        <div class="mx-[5%] flex h-[95vh] sm:mx-[10%] md:mx-[20%] lg:mx-[0%] lg:items-center xl:mx-[10%]">
+        <div class="mx-[5%] flex h-[94vh] sm:mx-[10%] md:mx-[20%] lg:mx-[0%] lg:items-center xl:mx-[10%]">
             {!disc ? (
                 <h1 class="flex h-[100%] w-full items-center justify-center text-3xl">
                     Loading...

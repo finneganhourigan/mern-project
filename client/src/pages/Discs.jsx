@@ -238,7 +238,7 @@ const Discs = () => {
                 </h2>
             ) : (
                 <div>
-                    <div class="sticky top-10 flex w-full justify-between bg-background px-2 py-2 sm:px-8">
+                    <div class="sticky top-12 flex w-full justify-between bg-background px-2 py-2 sm:px-8">
                         <div class="flex md:hidden">
                             {/* Filter drawer toggle (for small screens) */}
                             <div class="flex items-center">

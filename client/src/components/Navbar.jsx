@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <header class="sticky top-0 z-10 flex justify-between gap-4 bg-background px-2 py-2 text-text sm:px-8">
+        <div class="sticky top-0 z-10 flex justify-between gap-4 bg-background px-2 py-2 text-text sm:px-8">
             <Link
                 to="/"
                 class="flex items-center font-shippori text-xl md:block"
@@ -21,7 +21,7 @@ const Navbar = () => {
                     Discs
                 </Link>
             </div>
-        </header>
+        </div>
     );
 };
 
