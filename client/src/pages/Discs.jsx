@@ -25,7 +25,7 @@ const Discs = () => {
     const [sortOrder, setSortOrder] = useState('Top Selling');
 
     useEffect(() => {
-        fetch('https://disc-golf-app-backend.onrender.com/api/discs/') //http://localhost:4000/api/discs
+        fetch('https://disc-golf-app-backend.onrender.com/api/discs/') //http://localhost:4000/api/discs/
             .then((response) => response.json())
             .then((data) => {
                 // console.log(data);
@@ -613,6 +613,7 @@ const Discs = () => {
                                 class="text-primary"
                                 href="https://infinitediscs.com/top-selling/discs-of-all-time"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 Infinite Discs
                             </a>

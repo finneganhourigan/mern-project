@@ -19,7 +19,7 @@ const Slider = ({ min, max, onChange, val }) => {
             </div>
 
             <label
-                for="slider"
+                htmlFor="slider" //for="slider"
                 class="ml-2 w-8 border-2 border-white text-center xl:border-solid"
             >
                 {val}

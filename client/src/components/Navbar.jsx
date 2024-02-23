@@ -7,18 +7,18 @@ const Navbar = () => {
                 to="/"
                 class="flex items-center font-shippori text-xl md:block"
             >
-                <img class="w-full" src="/assets/logo.svg" />
+                <img class="w-full" src="/assets/logo.svg" alt="logo" />
             </Link>
 
             <div class="flex space-x-4 whitespace-nowrap md:space-x-8">
                 <Link to="/" class="font-shippori text-xl">
-                    Discs
-                </Link>
-                <Link to="/about" class="font-shippori text-xl">
                     About
                 </Link>
                 <Link to="/learn" class="font-shippori text-xl">
                     Learn
+                </Link>
+                <Link to="/discs" class="font-shippori text-xl">
+                    Discs
                 </Link>
             </div>
         </header>

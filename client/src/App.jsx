@@ -13,9 +13,9 @@ function App() {
         <BrowserRouter>
             <Navbar />
             <Routes>
-                <Route path="/" element={<Discs />} />
-                <Route path="/about" element={<About />} />
+                <Route path="/" element={<About />} />
                 <Route path="/learn" element={<Learn />} />
+                <Route path="/discs" element={<Discs />} />
                 <Route path="/disc/:id" element={<DiscInfo />} />
             </Routes>
         </BrowserRouter>
